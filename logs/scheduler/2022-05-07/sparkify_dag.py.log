@@ -1,0 +1,357 @@
+[2022-05-07 13:49:02,587] {processor.py:163} INFO - Started process (PID=1638) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:02,605] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:49:02,615] {logging_mixin.py:109} INFO - [2022-05-07 13:49:02,614] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:02,676] {logging_mixin.py:109} INFO - [2022-05-07 13:49:02,642] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 11
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:49:02,681] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:02,911] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.348 seconds
+[2022-05-07 13:49:33,130] {processor.py:163} INFO - Started process (PID=1683) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:33,136] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:49:33,140] {logging_mixin.py:109} INFO - [2022-05-07 13:49:33,140] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:33,270] {logging_mixin.py:109} INFO - [2022-05-07 13:49:33,268] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 11
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:49:33,276] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:33,368] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.246 seconds
+[2022-05-07 13:49:35,153] {processor.py:163} INFO - Started process (PID=1684) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:35,157] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:49:35,161] {logging_mixin.py:109} INFO - [2022-05-07 13:49:35,160] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:35,187] {logging_mixin.py:109} INFO - [2022-05-07 13:49:35,182] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 11
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:49:35,191] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:35,271] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.123 seconds
+[2022-05-07 13:49:48,792] {processor.py:163} INFO - Started process (PID=1702) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:48,802] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:49:48,810] {logging_mixin.py:109} INFO - [2022-05-07 13:49:48,809] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:48,836] {logging_mixin.py:109} INFO - [2022-05-07 13:49:48,834] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 11
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:49:48,838] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:49:48,889] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.114 seconds
+[2022-05-07 13:50:18,956] {processor.py:163} INFO - Started process (PID=1754) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:50:18,959] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:50:18,961] {logging_mixin.py:109} INFO - [2022-05-07 13:50:18,961] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:50:18,973] {logging_mixin.py:109} INFO - [2022-05-07 13:50:18,971] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 11
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:50:18,974] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:50:19,013] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.062 seconds
+[2022-05-07 13:50:41,632] {processor.py:163} INFO - Started process (PID=1804) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:50:41,637] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:50:41,641] {logging_mixin.py:109} INFO - [2022-05-07 13:50:41,641] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:50:41,674] {logging_mixin.py:109} INFO - [2022-05-07 13:50:41,665] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 11
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:50:41,678] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:50:41,754] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.128 seconds
+[2022-05-07 13:51:12,206] {processor.py:163} INFO - Started process (PID=1858) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:51:12,212] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:51:12,214] {logging_mixin.py:109} INFO - [2022-05-07 13:51:12,213] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:51:12,233] {logging_mixin.py:109} INFO - [2022-05-07 13:51:12,229] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 11
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:51:12,236] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:51:12,302] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.104 seconds
+[2022-05-07 13:51:36,196] {processor.py:163} INFO - Started process (PID=1908) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:51:36,200] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:51:36,203] {logging_mixin.py:109} INFO - [2022-05-07 13:51:36,202] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:51:36,224] {logging_mixin.py:109} INFO - [2022-05-07 13:51:36,222] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:51:36,227] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:51:36,293] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.103 seconds
+[2022-05-07 13:52:06,616] {processor.py:163} INFO - Started process (PID=1961) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:06,628] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:52:06,639] {logging_mixin.py:109} INFO - [2022-05-07 13:52:06,638] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:06,667] {logging_mixin.py:109} INFO - [2022-05-07 13:52:06,663] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:52:06,673] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:06,761] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.161 seconds
+[2022-05-07 13:52:17,798] {processor.py:163} INFO - Started process (PID=1978) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:17,813] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:52:17,818] {logging_mixin.py:109} INFO - [2022-05-07 13:52:17,817] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:17,847] {logging_mixin.py:109} INFO - [2022-05-07 13:52:17,839] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:52:17,851] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:17,901] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.116 seconds
+[2022-05-07 13:52:25,939] {processor.py:163} INFO - Started process (PID=1986) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:25,946] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:52:25,950] {logging_mixin.py:109} INFO - [2022-05-07 13:52:25,950] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:25,974] {logging_mixin.py:109} INFO - [2022-05-07 13:52:25,971] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:52:25,977] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:26,095] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.184 seconds
+[2022-05-07 13:52:56,419] {processor.py:163} INFO - Started process (PID=2051) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:56,424] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:52:56,426] {logging_mixin.py:109} INFO - [2022-05-07 13:52:56,426] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:56,441] {logging_mixin.py:109} INFO - [2022-05-07 13:52:56,438] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:52:56,444] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:52:56,497] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.085 seconds
+[2022-05-07 13:53:27,029] {processor.py:163} INFO - Started process (PID=2106) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:53:27,032] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:53:27,034] {logging_mixin.py:109} INFO - [2022-05-07 13:53:27,034] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:53:27,052] {logging_mixin.py:109} INFO - [2022-05-07 13:53:27,051] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:53:27,054] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:53:27,098] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.076 seconds
+[2022-05-07 13:53:57,642] {processor.py:163} INFO - Started process (PID=2160) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:53:57,649] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:53:57,651] {logging_mixin.py:109} INFO - [2022-05-07 13:53:57,651] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:53:57,671] {logging_mixin.py:109} INFO - [2022-05-07 13:53:57,668] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:53:57,674] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:53:57,732] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.100 seconds
+[2022-05-07 13:54:27,878] {processor.py:163} INFO - Started process (PID=2212) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:54:27,881] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:54:27,883] {logging_mixin.py:109} INFO - [2022-05-07 13:54:27,883] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:54:27,896] {logging_mixin.py:109} INFO - [2022-05-07 13:54:27,894] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:54:27,899] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:54:27,938] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.065 seconds
+[2022-05-07 13:54:58,103] {processor.py:163} INFO - Started process (PID=2274) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:54:58,107] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:54:58,110] {logging_mixin.py:109} INFO - [2022-05-07 13:54:58,109] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:54:58,125] {logging_mixin.py:109} INFO - [2022-05-07 13:54:58,123] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:54:58,126] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:54:58,181] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.084 seconds
+[2022-05-07 13:55:29,007] {processor.py:163} INFO - Started process (PID=2326) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:55:29,012] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:55:29,014] {logging_mixin.py:109} INFO - [2022-05-07 13:55:29,014] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:55:29,030] {logging_mixin.py:109} INFO - [2022-05-07 13:55:29,028] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:55:29,033] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:55:29,098] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.099 seconds
+[2022-05-07 13:55:59,389] {processor.py:163} INFO - Started process (PID=2379) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:55:59,396] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:55:59,401] {logging_mixin.py:109} INFO - [2022-05-07 13:55:59,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:55:59,424] {logging_mixin.py:109} INFO - [2022-05-07 13:55:59,421] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:55:59,430] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:55:59,515] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.136 seconds
+[2022-05-07 13:56:29,620] {processor.py:163} INFO - Started process (PID=2430) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:56:29,626] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:56:29,631] {logging_mixin.py:109} INFO - [2022-05-07 13:56:29,631] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:56:29,651] {logging_mixin.py:109} INFO - [2022-05-07 13:56:29,647] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:56:29,654] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:56:29,699] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.091 seconds
+[2022-05-07 13:57:00,036] {processor.py:163} INFO - Started process (PID=2492) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:57:00,039] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:57:00,041] {logging_mixin.py:109} INFO - [2022-05-07 13:57:00,041] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:57:00,056] {logging_mixin.py:109} INFO - [2022-05-07 13:57:00,054] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:57:00,059] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:57:00,103] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.073 seconds
+[2022-05-07 13:57:30,688] {processor.py:163} INFO - Started process (PID=2544) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:57:30,691] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-07 13:57:30,693] {logging_mixin.py:109} INFO - [2022-05-07 13:57:30,693] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:57:30,704] {logging_mixin.py:109} INFO - [2022-05-07 13:57:30,702] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/sparkify_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sparkify_dag.py", line 13
+    "catchup": False
+            ^
+SyntaxError: invalid syntax
+[2022-05-07 13:57:30,706] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-07 13:57:30,749] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.067 seconds
