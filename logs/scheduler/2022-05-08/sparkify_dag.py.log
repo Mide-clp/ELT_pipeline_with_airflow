@@ -1,0 +1,651 @@
+[2022-05-08 00:00:28,825] {processor.py:163} INFO - Started process (PID=22415) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:00:28,828] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:00:28,830] {logging_mixin.py:109} INFO - [2022-05-08 00:00:28,830] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:00:28,975] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:00:29,008] {logging_mixin.py:109} INFO - [2022-05-08 00:00:29,007] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:00:29,044] {logging_mixin.py:109} INFO - [2022-05-08 00:00:29,044] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:00:29,064] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.244 seconds
+[2022-05-08 00:00:59,528] {processor.py:163} INFO - Started process (PID=22469) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:00:59,530] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:00:59,532] {logging_mixin.py:109} INFO - [2022-05-08 00:00:59,532] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:00:59,687] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:00:59,724] {logging_mixin.py:109} INFO - [2022-05-08 00:00:59,723] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:00:59,765] {logging_mixin.py:109} INFO - [2022-05-08 00:00:59,765] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:00:59,780] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.258 seconds
+[2022-05-08 00:01:29,982] {processor.py:163} INFO - Started process (PID=22524) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:01:29,984] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:01:29,987] {logging_mixin.py:109} INFO - [2022-05-08 00:01:29,987] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:01:30,131] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:01:30,163] {logging_mixin.py:109} INFO - [2022-05-08 00:01:30,163] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:01:30,189] {logging_mixin.py:109} INFO - [2022-05-08 00:01:30,189] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:01:30,210] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.234 seconds
+[2022-05-08 00:02:00,828] {processor.py:163} INFO - Started process (PID=22589) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:02:00,831] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:02:00,833] {logging_mixin.py:109} INFO - [2022-05-08 00:02:00,832] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:02:01,042] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:02:01,076] {logging_mixin.py:109} INFO - [2022-05-08 00:02:01,076] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:02:01,108] {logging_mixin.py:109} INFO - [2022-05-08 00:02:01,108] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:02:01,135] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.315 seconds
+[2022-05-08 00:02:31,201] {processor.py:163} INFO - Started process (PID=22642) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:02:31,205] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:02:31,208] {logging_mixin.py:109} INFO - [2022-05-08 00:02:31,208] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:02:31,376] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:02:31,411] {logging_mixin.py:109} INFO - [2022-05-08 00:02:31,411] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:02:31,439] {logging_mixin.py:109} INFO - [2022-05-08 00:02:31,439] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:02:31,456] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.263 seconds
+[2022-05-08 00:03:01,534] {processor.py:163} INFO - Started process (PID=22695) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:03:01,537] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:03:01,540] {logging_mixin.py:109} INFO - [2022-05-08 00:03:01,540] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:03:01,708] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:03:01,748] {logging_mixin.py:109} INFO - [2022-05-08 00:03:01,748] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:03:01,780] {logging_mixin.py:109} INFO - [2022-05-08 00:03:01,780] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:03:01,797] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.269 seconds
+[2022-05-08 00:03:31,983] {processor.py:163} INFO - Started process (PID=22761) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:03:31,986] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:03:31,988] {logging_mixin.py:109} INFO - [2022-05-08 00:03:31,988] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:03:32,141] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:03:32,176] {logging_mixin.py:109} INFO - [2022-05-08 00:03:32,176] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:03:32,202] {logging_mixin.py:109} INFO - [2022-05-08 00:03:32,202] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:03:32,223] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.246 seconds
+[2022-05-08 00:04:02,819] {processor.py:163} INFO - Started process (PID=22813) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:04:02,828] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:04:02,829] {logging_mixin.py:109} INFO - [2022-05-08 00:04:02,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:04:02,970] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:04:03,001] {logging_mixin.py:109} INFO - [2022-05-08 00:04:03,000] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:04:03,025] {logging_mixin.py:109} INFO - [2022-05-08 00:04:03,025] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:04:03,045] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.232 seconds
+[2022-05-08 00:04:33,231] {processor.py:163} INFO - Started process (PID=22868) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:04:33,234] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:04:33,235] {logging_mixin.py:109} INFO - [2022-05-08 00:04:33,235] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:04:33,363] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:04:33,397] {logging_mixin.py:109} INFO - [2022-05-08 00:04:33,397] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:04:33,424] {logging_mixin.py:109} INFO - [2022-05-08 00:04:33,424] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:04:33,438] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.211 seconds
+[2022-05-08 00:05:03,971] {processor.py:163} INFO - Started process (PID=22932) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:05:03,974] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:05:03,976] {logging_mixin.py:109} INFO - [2022-05-08 00:05:03,976] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:05:04,129] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:05:04,162] {logging_mixin.py:109} INFO - [2022-05-08 00:05:04,162] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:05:04,189] {logging_mixin.py:109} INFO - [2022-05-08 00:05:04,189] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:05:04,211] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.245 seconds
+[2022-05-08 00:05:34,546] {processor.py:163} INFO - Started process (PID=22987) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:05:34,550] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:05:34,553] {logging_mixin.py:109} INFO - [2022-05-08 00:05:34,553] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:05:34,741] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:05:34,790] {logging_mixin.py:109} INFO - [2022-05-08 00:05:34,790] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:05:34,830] {logging_mixin.py:109} INFO - [2022-05-08 00:05:34,830] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:05:34,855] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.317 seconds
+[2022-05-08 00:06:05,316] {processor.py:163} INFO - Started process (PID=23041) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:06:05,320] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:06:05,322] {logging_mixin.py:109} INFO - [2022-05-08 00:06:05,321] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:06:05,469] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:06:05,499] {logging_mixin.py:109} INFO - [2022-05-08 00:06:05,499] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:06:05,526] {logging_mixin.py:109} INFO - [2022-05-08 00:06:05,525] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:06:05,551] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.240 seconds
+[2022-05-08 00:06:35,872] {processor.py:163} INFO - Started process (PID=23103) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:06:35,875] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:06:35,877] {logging_mixin.py:109} INFO - [2022-05-08 00:06:35,877] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:06:36,048] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:06:36,080] {logging_mixin.py:109} INFO - [2022-05-08 00:06:36,080] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:06:36,107] {logging_mixin.py:109} INFO - [2022-05-08 00:06:36,106] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:06:36,127] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.260 seconds
+[2022-05-08 00:07:06,628] {processor.py:163} INFO - Started process (PID=23156) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:07:06,633] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:07:06,635] {logging_mixin.py:109} INFO - [2022-05-08 00:07:06,635] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:07:06,802] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:07:06,837] {logging_mixin.py:109} INFO - [2022-05-08 00:07:06,837] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:07:06,866] {logging_mixin.py:109} INFO - [2022-05-08 00:07:06,866] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:07:06,884] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.265 seconds
+[2022-05-08 00:07:37,227] {processor.py:163} INFO - Started process (PID=23208) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:07:37,230] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:07:37,232] {logging_mixin.py:109} INFO - [2022-05-08 00:07:37,232] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:07:37,378] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:07:37,407] {logging_mixin.py:109} INFO - [2022-05-08 00:07:37,407] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:07:37,434] {logging_mixin.py:109} INFO - [2022-05-08 00:07:37,433] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:07:37,454] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.236 seconds
+[2022-05-08 00:08:07,842] {processor.py:163} INFO - Started process (PID=23272) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:08:07,846] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:08:07,848] {logging_mixin.py:109} INFO - [2022-05-08 00:08:07,848] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:08:07,987] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:08:08,019] {logging_mixin.py:109} INFO - [2022-05-08 00:08:08,019] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:08:08,042] {logging_mixin.py:109} INFO - [2022-05-08 00:08:08,042] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:08:08,063] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.230 seconds
+[2022-05-08 00:08:38,466] {processor.py:163} INFO - Started process (PID=23327) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:08:38,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:08:38,472] {logging_mixin.py:109} INFO - [2022-05-08 00:08:38,472] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:08:38,606] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:08:38,634] {logging_mixin.py:109} INFO - [2022-05-08 00:08:38,634] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:08:38,658] {logging_mixin.py:109} INFO - [2022-05-08 00:08:38,658] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:08:38,676] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.215 seconds
+[2022-05-08 00:09:08,846] {processor.py:163} INFO - Started process (PID=23390) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:09:08,848] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:09:08,850] {logging_mixin.py:109} INFO - [2022-05-08 00:09:08,850] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:09:08,981] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:09:09,008] {logging_mixin.py:109} INFO - [2022-05-08 00:09:09,008] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:09:09,034] {logging_mixin.py:109} INFO - [2022-05-08 00:09:09,034] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:09:09,062] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.221 seconds
+[2022-05-08 00:09:39,427] {processor.py:163} INFO - Started process (PID=23444) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:09:39,430] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:09:39,431] {logging_mixin.py:109} INFO - [2022-05-08 00:09:39,431] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:09:39,560] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:09:39,588] {logging_mixin.py:109} INFO - [2022-05-08 00:09:39,588] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:09:39,616] {logging_mixin.py:109} INFO - [2022-05-08 00:09:39,616] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:09:39,628] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.206 seconds
+[2022-05-08 00:10:10,185] {processor.py:163} INFO - Started process (PID=23499) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:10:10,187] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:10:10,188] {logging_mixin.py:109} INFO - [2022-05-08 00:10:10,188] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:10:10,319] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:10:10,347] {logging_mixin.py:109} INFO - [2022-05-08 00:10:10,347] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:10:10,370] {logging_mixin.py:109} INFO - [2022-05-08 00:10:10,370] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:10:10,389] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.209 seconds
+[2022-05-08 00:10:40,852] {processor.py:163} INFO - Started process (PID=23563) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:10:40,854] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:10:40,856] {logging_mixin.py:109} INFO - [2022-05-08 00:10:40,856] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:10:40,982] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:10:41,008] {logging_mixin.py:109} INFO - [2022-05-08 00:10:41,008] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:10:41,032] {logging_mixin.py:109} INFO - [2022-05-08 00:10:41,031] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:10:41,048] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.201 seconds
+[2022-05-08 00:11:11,653] {processor.py:163} INFO - Started process (PID=23617) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:11:11,656] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:11:11,657] {logging_mixin.py:109} INFO - [2022-05-08 00:11:11,657] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:11:11,785] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:11:11,810] {logging_mixin.py:109} INFO - [2022-05-08 00:11:11,810] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:11:11,833] {logging_mixin.py:109} INFO - [2022-05-08 00:11:11,833] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:11:11,851] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.205 seconds
+[2022-05-08 00:11:42,059] {processor.py:163} INFO - Started process (PID=23681) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:11:42,061] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:11:42,063] {logging_mixin.py:109} INFO - [2022-05-08 00:11:42,063] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:11:42,204] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:11:42,233] {logging_mixin.py:109} INFO - [2022-05-08 00:11:42,232] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:11:42,259] {logging_mixin.py:109} INFO - [2022-05-08 00:11:42,259] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:11:42,276] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.222 seconds
+[2022-05-08 00:12:12,495] {processor.py:163} INFO - Started process (PID=23736) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:12:12,499] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:12:12,501] {logging_mixin.py:109} INFO - [2022-05-08 00:12:12,501] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:12:12,641] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:12:12,674] {logging_mixin.py:109} INFO - [2022-05-08 00:12:12,674] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:12:12,702] {logging_mixin.py:109} INFO - [2022-05-08 00:12:12,702] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:12:12,724] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.238 seconds
+[2022-05-08 00:12:42,855] {processor.py:163} INFO - Started process (PID=23789) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:12:42,865] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:12:42,868] {logging_mixin.py:109} INFO - [2022-05-08 00:12:42,867] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:12:43,026] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:12:43,057] {logging_mixin.py:109} INFO - [2022-05-08 00:12:43,057] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:12:43,086] {logging_mixin.py:109} INFO - [2022-05-08 00:12:43,085] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:12:43,101] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.251 seconds
+[2022-05-08 00:13:13,340] {processor.py:163} INFO - Started process (PID=23853) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:13:13,349] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:13:13,351] {logging_mixin.py:109} INFO - [2022-05-08 00:13:13,350] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:13:13,538] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:13:13,575] {logging_mixin.py:109} INFO - [2022-05-08 00:13:13,575] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:13:13,615] {logging_mixin.py:109} INFO - [2022-05-08 00:13:13,614] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:13:13,638] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.303 seconds
+[2022-05-08 00:13:43,989] {processor.py:163} INFO - Started process (PID=23909) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:13:43,992] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:13:43,994] {logging_mixin.py:109} INFO - [2022-05-08 00:13:43,994] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:13:44,146] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:13:44,180] {logging_mixin.py:109} INFO - [2022-05-08 00:13:44,180] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:13:44,211] {logging_mixin.py:109} INFO - [2022-05-08 00:13:44,210] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:13:44,232] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.249 seconds
+[2022-05-08 00:14:14,485] {processor.py:163} INFO - Started process (PID=23964) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:14:14,488] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:14:14,489] {logging_mixin.py:109} INFO - [2022-05-08 00:14:14,489] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:14:14,636] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:14:14,668] {logging_mixin.py:109} INFO - [2022-05-08 00:14:14,668] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:14:14,696] {logging_mixin.py:109} INFO - [2022-05-08 00:14:14,696] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:14:14,717] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.237 seconds
+[2022-05-08 00:14:44,823] {processor.py:163} INFO - Started process (PID=24026) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:14:44,826] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:14:44,828] {logging_mixin.py:109} INFO - [2022-05-08 00:14:44,828] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:14:44,997] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:14:45,047] {logging_mixin.py:109} INFO - [2022-05-08 00:14:45,047] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:14:45,084] {logging_mixin.py:109} INFO - [2022-05-08 00:14:45,084] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:14:45,103] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.291 seconds
+[2022-05-08 00:15:15,421] {processor.py:163} INFO - Started process (PID=24081) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:15:15,425] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:15:15,427] {logging_mixin.py:109} INFO - [2022-05-08 00:15:15,427] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:15:15,604] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:15:15,634] {logging_mixin.py:109} INFO - [2022-05-08 00:15:15,633] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:15:15,690] {logging_mixin.py:109} INFO - [2022-05-08 00:15:15,690] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:15:15,712] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.296 seconds
+[2022-05-08 00:15:45,949] {processor.py:163} INFO - Started process (PID=24133) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:15:45,952] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:15:45,955] {logging_mixin.py:109} INFO - [2022-05-08 00:15:45,955] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:15:46,105] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:15:46,139] {logging_mixin.py:109} INFO - [2022-05-08 00:15:46,139] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:15:46,166] {logging_mixin.py:109} INFO - [2022-05-08 00:15:46,166] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:15:46,185] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.241 seconds
+[2022-05-08 00:16:16,286] {processor.py:163} INFO - Started process (PID=24197) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:16:16,295] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:16:16,297] {logging_mixin.py:109} INFO - [2022-05-08 00:16:16,297] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:16:16,446] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:16:16,479] {logging_mixin.py:109} INFO - [2022-05-08 00:16:16,479] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:16:16,507] {logging_mixin.py:109} INFO - [2022-05-08 00:16:16,507] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:16:16,526] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.246 seconds
+[2022-05-08 00:16:47,418] {processor.py:163} INFO - Started process (PID=24252) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:16:47,429] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:16:47,432] {logging_mixin.py:109} INFO - [2022-05-08 00:16:47,432] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:16:47,597] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:16:47,637] {logging_mixin.py:109} INFO - [2022-05-08 00:16:47,637] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:16:47,670] {logging_mixin.py:109} INFO - [2022-05-08 00:16:47,670] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:16:47,686] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.274 seconds
+[2022-05-08 00:17:18,330] {processor.py:163} INFO - Started process (PID=24304) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:17:18,339] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:17:18,341] {logging_mixin.py:109} INFO - [2022-05-08 00:17:18,341] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:17:18,487] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:17:18,521] {logging_mixin.py:109} INFO - [2022-05-08 00:17:18,521] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:17:18,554] {logging_mixin.py:109} INFO - [2022-05-08 00:17:18,554] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:17:18,570] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.245 seconds
+[2022-05-08 00:17:49,547] {processor.py:163} INFO - Started process (PID=24368) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:17:49,550] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:17:49,551] {logging_mixin.py:109} INFO - [2022-05-08 00:17:49,551] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:17:49,684] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:17:49,714] {logging_mixin.py:109} INFO - [2022-05-08 00:17:49,714] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:17:49,740] {logging_mixin.py:109} INFO - [2022-05-08 00:17:49,740] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:17:49,762] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.220 seconds
+[2022-05-08 00:18:20,609] {processor.py:163} INFO - Started process (PID=24420) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:18:20,612] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:18:20,614] {logging_mixin.py:109} INFO - [2022-05-08 00:18:20,614] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:18:20,770] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:18:20,808] {logging_mixin.py:109} INFO - [2022-05-08 00:18:20,808] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:18:20,836] {logging_mixin.py:109} INFO - [2022-05-08 00:18:20,836] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:18:20,849] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.249 seconds
+[2022-05-08 00:18:51,452] {processor.py:163} INFO - Started process (PID=24483) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:18:51,455] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:18:51,456] {logging_mixin.py:109} INFO - [2022-05-08 00:18:51,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:18:51,626] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:18:51,668] {logging_mixin.py:109} INFO - [2022-05-08 00:18:51,668] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:18:51,700] {logging_mixin.py:109} INFO - [2022-05-08 00:18:51,699] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:18:51,710] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.263 seconds
+[2022-05-08 00:19:21,816] {processor.py:163} INFO - Started process (PID=24536) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:19:21,819] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:19:21,820] {logging_mixin.py:109} INFO - [2022-05-08 00:19:21,820] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:19:21,962] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:19:21,997] {logging_mixin.py:109} INFO - [2022-05-08 00:19:21,996] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:19:22,022] {logging_mixin.py:109} INFO - [2022-05-08 00:19:22,021] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:19:22,036] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.225 seconds
+[2022-05-08 00:19:52,246] {processor.py:163} INFO - Started process (PID=24591) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:19:52,248] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:19:52,250] {logging_mixin.py:109} INFO - [2022-05-08 00:19:52,250] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:19:52,387] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:19:52,415] {logging_mixin.py:109} INFO - [2022-05-08 00:19:52,415] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:19:52,438] {logging_mixin.py:109} INFO - [2022-05-08 00:19:52,438] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:19:52,453] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.212 seconds
+[2022-05-08 00:20:22,787] {processor.py:163} INFO - Started process (PID=24655) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:20:22,790] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:20:22,791] {logging_mixin.py:109} INFO - [2022-05-08 00:20:22,791] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:20:22,945] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:20:22,978] {logging_mixin.py:109} INFO - [2022-05-08 00:20:22,978] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:20:23,002] {logging_mixin.py:109} INFO - [2022-05-08 00:20:23,002] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:20:23,019] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.237 seconds
+[2022-05-08 00:20:53,083] {processor.py:163} INFO - Started process (PID=24709) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:20:53,085] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:20:53,086] {logging_mixin.py:109} INFO - [2022-05-08 00:20:53,086] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:20:53,232] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:20:53,259] {logging_mixin.py:109} INFO - [2022-05-08 00:20:53,259] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:20:53,282] {logging_mixin.py:109} INFO - [2022-05-08 00:20:53,282] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:20:53,299] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.223 seconds
+[2022-05-08 00:21:23,478] {processor.py:163} INFO - Started process (PID=24776) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:21:23,480] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:21:23,482] {logging_mixin.py:109} INFO - [2022-05-08 00:21:23,481] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:21:23,612] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:21:23,641] {logging_mixin.py:109} INFO - [2022-05-08 00:21:23,640] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:21:23,665] {logging_mixin.py:109} INFO - [2022-05-08 00:21:23,664] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:21:23,683] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.210 seconds
+[2022-05-08 00:21:54,408] {processor.py:163} INFO - Started process (PID=24828) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:21:54,411] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:21:54,413] {logging_mixin.py:109} INFO - [2022-05-08 00:21:54,413] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:21:54,563] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:21:54,604] {logging_mixin.py:109} INFO - [2022-05-08 00:21:54,604] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:21:54,637] {logging_mixin.py:109} INFO - [2022-05-08 00:21:54,637] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:21:54,663] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.260 seconds
+[2022-05-08 00:22:25,274] {processor.py:163} INFO - Started process (PID=24883) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:22:25,278] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:22:25,282] {logging_mixin.py:109} INFO - [2022-05-08 00:22:25,282] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:22:25,430] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:22:25,458] {logging_mixin.py:109} INFO - [2022-05-08 00:22:25,458] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:22:25,486] {logging_mixin.py:109} INFO - [2022-05-08 00:22:25,486] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:22:25,501] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.232 seconds
+[2022-05-08 00:22:55,807] {processor.py:163} INFO - Started process (PID=24945) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:22:55,810] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:22:55,811] {logging_mixin.py:109} INFO - [2022-05-08 00:22:55,811] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:22:55,947] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:22:55,974] {logging_mixin.py:109} INFO - [2022-05-08 00:22:55,974] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:22:56,001] {logging_mixin.py:109} INFO - [2022-05-08 00:22:56,000] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:22:56,016] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.215 seconds
+[2022-05-08 00:23:26,244] {processor.py:163} INFO - Started process (PID=25000) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:23:26,247] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:23:26,248] {logging_mixin.py:109} INFO - [2022-05-08 00:23:26,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:23:26,393] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:23:26,427] {logging_mixin.py:109} INFO - [2022-05-08 00:23:26,427] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:23:26,455] {logging_mixin.py:109} INFO - [2022-05-08 00:23:26,455] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:23:26,470] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.231 seconds
+[2022-05-08 00:23:56,630] {processor.py:163} INFO - Started process (PID=25064) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:23:56,633] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:23:56,634] {logging_mixin.py:109} INFO - [2022-05-08 00:23:56,634] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:23:56,797] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:23:56,826] {logging_mixin.py:109} INFO - [2022-05-08 00:23:56,826] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:23:56,854] {logging_mixin.py:109} INFO - [2022-05-08 00:23:56,853] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:23:56,868] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.244 seconds
+[2022-05-08 00:24:27,071] {processor.py:163} INFO - Started process (PID=25116) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:24:27,074] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:24:27,076] {logging_mixin.py:109} INFO - [2022-05-08 00:24:27,076] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:24:27,212] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:24:27,245] {logging_mixin.py:109} INFO - [2022-05-08 00:24:27,245] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:24:27,269] {logging_mixin.py:109} INFO - [2022-05-08 00:24:27,269] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:24:27,283] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.216 seconds
+[2022-05-08 00:24:57,397] {processor.py:163} INFO - Started process (PID=25169) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:24:57,400] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:24:57,401] {logging_mixin.py:109} INFO - [2022-05-08 00:24:57,401] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:24:57,527] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:24:57,554] {logging_mixin.py:109} INFO - [2022-05-08 00:24:57,554] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:24:57,577] {logging_mixin.py:109} INFO - [2022-05-08 00:24:57,577] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:24:57,594] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.205 seconds
+[2022-05-08 00:25:27,700] {processor.py:163} INFO - Started process (PID=25233) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:25:27,708] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:25:27,711] {logging_mixin.py:109} INFO - [2022-05-08 00:25:27,710] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:25:27,864] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:25:27,891] {logging_mixin.py:109} INFO - [2022-05-08 00:25:27,891] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:25:27,913] {logging_mixin.py:109} INFO - [2022-05-08 00:25:27,913] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:25:27,927] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.232 seconds
+[2022-05-08 00:25:58,540] {processor.py:163} INFO - Started process (PID=25287) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:25:58,544] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:25:58,546] {logging_mixin.py:109} INFO - [2022-05-08 00:25:58,546] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:25:58,737] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:25:58,766] {logging_mixin.py:109} INFO - [2022-05-08 00:25:58,766] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:25:58,796] {logging_mixin.py:109} INFO - [2022-05-08 00:25:58,796] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:25:58,812] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.287 seconds
+[2022-05-08 00:26:29,030] {processor.py:163} INFO - Started process (PID=25352) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:26:29,034] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:26:29,037] {logging_mixin.py:109} INFO - [2022-05-08 00:26:29,036] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:26:29,199] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:26:29,228] {logging_mixin.py:109} INFO - [2022-05-08 00:26:29,228] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:26:29,251] {logging_mixin.py:109} INFO - [2022-05-08 00:26:29,251] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:26:29,287] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.266 seconds
+[2022-05-08 00:26:59,702] {processor.py:163} INFO - Started process (PID=25405) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:26:59,704] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:26:59,706] {logging_mixin.py:109} INFO - [2022-05-08 00:26:59,705] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:26:59,838] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:26:59,866] {logging_mixin.py:109} INFO - [2022-05-08 00:26:59,865] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:26:59,891] {logging_mixin.py:109} INFO - [2022-05-08 00:26:59,890] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:26:59,904] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.208 seconds
+[2022-05-08 00:27:30,034] {processor.py:163} INFO - Started process (PID=25458) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:27:30,037] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:27:30,039] {logging_mixin.py:109} INFO - [2022-05-08 00:27:30,039] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:27:30,177] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:27:30,214] {logging_mixin.py:109} INFO - [2022-05-08 00:27:30,214] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:27:30,239] {logging_mixin.py:109} INFO - [2022-05-08 00:27:30,239] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:27:30,256] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.226 seconds
+[2022-05-08 00:28:00,438] {processor.py:163} INFO - Started process (PID=25520) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:28:00,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:28:00,445] {logging_mixin.py:109} INFO - [2022-05-08 00:28:00,445] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:28:00,579] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:28:00,606] {logging_mixin.py:109} INFO - [2022-05-08 00:28:00,605] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:28:00,629] {logging_mixin.py:109} INFO - [2022-05-08 00:28:00,628] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:28:00,642] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.212 seconds
+[2022-05-08 00:28:31,426] {processor.py:163} INFO - Started process (PID=25572) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:28:31,430] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:28:31,432] {logging_mixin.py:109} INFO - [2022-05-08 00:28:31,432] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:28:31,573] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:28:31,602] {logging_mixin.py:109} INFO - [2022-05-08 00:28:31,601] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:28:31,625] {logging_mixin.py:109} INFO - [2022-05-08 00:28:31,625] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:28:31,639] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.222 seconds
+[2022-05-08 00:29:02,153] {processor.py:163} INFO - Started process (PID=25636) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:29:02,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:29:02,157] {logging_mixin.py:109} INFO - [2022-05-08 00:29:02,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:29:02,287] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:29:02,314] {logging_mixin.py:109} INFO - [2022-05-08 00:29:02,314] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:29:02,338] {logging_mixin.py:109} INFO - [2022-05-08 00:29:02,338] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:29:02,355] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.208 seconds
+[2022-05-08 00:29:32,397] {processor.py:163} INFO - Started process (PID=25689) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:29:32,400] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:29:32,401] {logging_mixin.py:109} INFO - [2022-05-08 00:29:32,401] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:29:32,529] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:29:32,558] {logging_mixin.py:109} INFO - [2022-05-08 00:29:32,558] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:29:32,581] {logging_mixin.py:109} INFO - [2022-05-08 00:29:32,581] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:29:32,598] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.205 seconds
+[2022-05-08 00:30:02,677] {processor.py:163} INFO - Started process (PID=25750) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:30:02,679] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:30:02,680] {logging_mixin.py:109} INFO - [2022-05-08 00:30:02,680] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:30:02,810] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:30:02,840] {logging_mixin.py:109} INFO - [2022-05-08 00:30:02,840] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:30:02,867] {logging_mixin.py:109} INFO - [2022-05-08 00:30:02,867] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:30:02,889] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.217 seconds
+[2022-05-08 00:30:33,330] {processor.py:163} INFO - Started process (PID=25805) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:30:33,333] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:30:33,335] {logging_mixin.py:109} INFO - [2022-05-08 00:30:33,334] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:30:33,489] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:30:33,517] {logging_mixin.py:109} INFO - [2022-05-08 00:30:33,517] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:30:33,542] {logging_mixin.py:109} INFO - [2022-05-08 00:30:33,542] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:30:33,555] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.230 seconds
+[2022-05-08 00:31:04,199] {processor.py:163} INFO - Started process (PID=25859) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:31:04,207] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:31:04,235] {logging_mixin.py:109} INFO - [2022-05-08 00:31:04,235] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:31:04,601] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:31:04,675] {logging_mixin.py:109} INFO - [2022-05-08 00:31:04,675] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:31:04,727] {logging_mixin.py:109} INFO - [2022-05-08 00:31:04,727] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:31:04,761] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.588 seconds
+[2022-05-08 00:31:31,674] {processor.py:163} INFO - Started process (PID=25912) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:31:31,679] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:31:31,682] {logging_mixin.py:109} INFO - [2022-05-08 00:31:31,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:31:31,905] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:31:32,204] {logging_mixin.py:109} INFO - [2022-05-08 00:31:32,204] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:31:32,226] {logging_mixin.py:109} INFO - [2022-05-08 00:31:32,225] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:31:32,245] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.580 seconds
+[2022-05-08 00:32:03,203] {processor.py:163} INFO - Started process (PID=25976) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:32:03,207] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:32:03,209] {logging_mixin.py:109} INFO - [2022-05-08 00:32:03,209] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:32:03,346] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:32:03,374] {logging_mixin.py:109} INFO - [2022-05-08 00:32:03,374] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:32:03,400] {logging_mixin.py:109} INFO - [2022-05-08 00:32:03,400] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:32:03,421] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.225 seconds
+[2022-05-08 00:32:33,629] {processor.py:163} INFO - Started process (PID=26030) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:32:33,632] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:32:33,633] {logging_mixin.py:109} INFO - [2022-05-08 00:32:33,633] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:32:33,749] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:32:33,781] {logging_mixin.py:109} INFO - [2022-05-08 00:32:33,781] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:32:33,804] {logging_mixin.py:109} INFO - [2022-05-08 00:32:33,804] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:32:33,820] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.196 seconds
+[2022-05-08 00:33:04,643] {processor.py:163} INFO - Started process (PID=26095) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:33:04,645] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:33:04,646] {logging_mixin.py:109} INFO - [2022-05-08 00:33:04,646] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:33:04,762] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:33:04,790] {logging_mixin.py:109} INFO - [2022-05-08 00:33:04,790] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:33:04,812] {logging_mixin.py:109} INFO - [2022-05-08 00:33:04,811] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:33:04,830] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.191 seconds
+[2022-05-08 00:33:35,127] {processor.py:163} INFO - Started process (PID=26149) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:33:35,129] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:33:35,131] {logging_mixin.py:109} INFO - [2022-05-08 00:33:35,131] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:33:35,253] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:33:35,284] {logging_mixin.py:109} INFO - [2022-05-08 00:33:35,283] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:33:35,311] {logging_mixin.py:109} INFO - [2022-05-08 00:33:35,311] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:33:35,325] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.207 seconds
+[2022-05-08 00:34:05,529] {processor.py:163} INFO - Started process (PID=26212) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:34:05,531] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:34:05,533] {logging_mixin.py:109} INFO - [2022-05-08 00:34:05,533] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:34:05,697] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:34:05,727] {logging_mixin.py:109} INFO - [2022-05-08 00:34:05,727] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:34:05,752] {logging_mixin.py:109} INFO - [2022-05-08 00:34:05,752] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:34:05,767] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.245 seconds
+[2022-05-08 00:34:37,102] {processor.py:163} INFO - Started process (PID=26266) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:34:37,104] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:34:37,107] {logging_mixin.py:109} INFO - [2022-05-08 00:34:37,106] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:34:37,309] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:34:37,351] {logging_mixin.py:109} INFO - [2022-05-08 00:34:37,351] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:34:37,388] {logging_mixin.py:109} INFO - [2022-05-08 00:34:37,388] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:34:37,432] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.337 seconds
+[2022-05-08 00:35:11,262] {processor.py:163} INFO - Started process (PID=26282) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:35:11,272] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:35:11,276] {logging_mixin.py:109} INFO - [2022-05-08 00:35:11,276] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:35:11,625] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:35:11,678] {logging_mixin.py:109} INFO - [2022-05-08 00:35:11,678] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:35:11,727] {logging_mixin.py:109} INFO - [2022-05-08 00:35:11,726] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:35:11,756] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.514 seconds
+[2022-05-08 00:47:57,130] {processor.py:163} INFO - Started process (PID=26335) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:47:57,194] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 00:47:57,220] {logging_mixin.py:109} INFO - [2022-05-08 00:47:57,220] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:48:02,649] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 00:48:04,362] {logging_mixin.py:109} INFO - [2022-05-08 00:48:04,361] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 00:48:05,209] {logging_mixin.py:109} INFO - [2022-05-08 00:48:05,208] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 00:48:05,442] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 8.479 seconds
+[2022-05-08 02:15:12,354] {processor.py:163} INFO - Started process (PID=26373) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 02:15:12,386] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 02:15:12,442] {logging_mixin.py:109} INFO - [2022-05-08 02:15:12,438] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 02:15:13,828] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 02:15:13,989] {logging_mixin.py:109} INFO - [2022-05-08 02:15:13,989] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 02:15:14,272] {logging_mixin.py:109} INFO - [2022-05-08 02:15:14,266] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 02:15:14,365] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 2.084 seconds
+[2022-05-08 05:32:46,316] {processor.py:163} INFO - Started process (PID=26426) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 05:32:46,338] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 05:32:46,348] {logging_mixin.py:109} INFO - [2022-05-08 05:32:46,347] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 05:32:47,050] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 05:32:47,187] {logging_mixin.py:109} INFO - [2022-05-08 05:32:47,187] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 05:32:47,292] {logging_mixin.py:109} INFO - [2022-05-08 05:32:47,291] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 05:32:47,340] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 1.050 seconds
+[2022-05-08 07:28:00,931] {processor.py:163} INFO - Started process (PID=26436) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 07:28:01,176] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 07:28:03,624] {logging_mixin.py:109} INFO - [2022-05-08 07:28:01,257] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 07:28:07,691] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 07:28:07,808] {logging_mixin.py:109} INFO - [2022-05-08 07:28:07,808] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 07:28:08,141] {logging_mixin.py:109} INFO - [2022-05-08 07:28:08,140] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 07:28:08,224] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 7.576 seconds
+[2022-05-08 09:28:20,242] {processor.py:163} INFO - Started process (PID=26462) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 09:28:20,328] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 09:28:20,403] {logging_mixin.py:109} INFO - [2022-05-08 09:28:20,401] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 09:28:23,407] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 09:28:23,631] {logging_mixin.py:109} INFO - [2022-05-08 09:28:23,631] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:09:26,980] {logging_mixin.py:109} INFO - [2022-05-08 10:09:26,895] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:09:27,761] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 22.280 seconds
+[2022-05-08 10:09:32,792] {processor.py:163} INFO - Started process (PID=26477) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:09:32,868] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:09:32,993] {logging_mixin.py:109} INFO - [2022-05-08 10:09:32,975] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:09:36,181] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:09:36,420] {logging_mixin.py:109} INFO - [2022-05-08 10:09:36,419] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:09:36,664] {logging_mixin.py:109} INFO - [2022-05-08 10:09:36,663] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:09:36,806] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 4.233 seconds
+[2022-05-08 10:10:07,189] {processor.py:163} INFO - Started process (PID=26530) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:10:07,196] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:10:07,199] {logging_mixin.py:109} INFO - [2022-05-08 10:10:07,198] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:10:07,681] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:10:07,747] {logging_mixin.py:109} INFO - [2022-05-08 10:10:07,747] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:10:07,826] {logging_mixin.py:109} INFO - [2022-05-08 10:10:07,826] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:10:07,860] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.677 seconds
+[2022-05-08 10:10:38,465] {processor.py:163} INFO - Started process (PID=26585) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:10:38,469] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:10:38,472] {logging_mixin.py:109} INFO - [2022-05-08 10:10:38,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:10:38,632] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:10:38,677] {logging_mixin.py:109} INFO - [2022-05-08 10:10:38,677] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:10:38,710] {logging_mixin.py:109} INFO - [2022-05-08 10:10:38,710] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:10:38,733] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.274 seconds
+[2022-05-08 10:11:09,112] {processor.py:163} INFO - Started process (PID=26637) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:11:09,116] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:11:09,118] {logging_mixin.py:109} INFO - [2022-05-08 10:11:09,118] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:11:09,338] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:11:09,388] {logging_mixin.py:109} INFO - [2022-05-08 10:11:09,388] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:11:09,459] {logging_mixin.py:109} INFO - [2022-05-08 10:11:09,458] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:11:09,496] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.390 seconds
+[2022-05-08 10:11:40,011] {processor.py:163} INFO - Started process (PID=26689) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:11:40,014] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:11:40,016] {logging_mixin.py:109} INFO - [2022-05-08 10:11:40,016] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:11:40,170] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:11:40,208] {logging_mixin.py:109} INFO - [2022-05-08 10:11:40,208] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:11:40,232] {logging_mixin.py:109} INFO - [2022-05-08 10:11:40,232] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:11:40,249] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.243 seconds
+[2022-05-08 10:12:10,480] {processor.py:163} INFO - Started process (PID=26754) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:12:10,490] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:12:10,492] {logging_mixin.py:109} INFO - [2022-05-08 10:12:10,492] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:12:10,651] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:12:10,703] {logging_mixin.py:109} INFO - [2022-05-08 10:12:10,702] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:12:10,731] {logging_mixin.py:109} INFO - [2022-05-08 10:12:10,731] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:12:10,750] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.275 seconds
+[2022-05-08 10:12:40,821] {processor.py:163} INFO - Started process (PID=26808) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:12:40,827] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:12:40,829] {logging_mixin.py:109} INFO - [2022-05-08 10:12:40,829] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:12:41,082] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:12:41,168] {logging_mixin.py:109} INFO - [2022-05-08 10:12:41,167] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:12:41,201] {logging_mixin.py:109} INFO - [2022-05-08 10:12:41,200] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:12:41,229] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.415 seconds
+[2022-05-08 10:13:11,952] {processor.py:163} INFO - Started process (PID=26861) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:13:11,955] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:13:11,958] {logging_mixin.py:109} INFO - [2022-05-08 10:13:11,958] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:13:12,121] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:13:12,166] {logging_mixin.py:109} INFO - [2022-05-08 10:13:12,166] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:13:12,207] {logging_mixin.py:109} INFO - [2022-05-08 10:13:12,207] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:13:12,228] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.284 seconds
+[2022-05-08 10:13:43,019] {processor.py:163} INFO - Started process (PID=26914) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:13:43,023] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:13:43,026] {logging_mixin.py:109} INFO - [2022-05-08 10:13:43,025] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:13:43,199] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:13:43,238] {logging_mixin.py:109} INFO - [2022-05-08 10:13:43,238] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:13:43,268] {logging_mixin.py:109} INFO - [2022-05-08 10:13:43,268] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:13:43,285] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.272 seconds
+[2022-05-08 10:14:13,490] {processor.py:163} INFO - Started process (PID=26977) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:14:13,497] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:14:13,502] {logging_mixin.py:109} INFO - [2022-05-08 10:14:13,501] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:14:13,749] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:14:13,795] {logging_mixin.py:109} INFO - [2022-05-08 10:14:13,794] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:14:13,822] {logging_mixin.py:109} INFO - [2022-05-08 10:14:13,822] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:14:13,843] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.371 seconds
+[2022-05-08 10:14:43,937] {processor.py:163} INFO - Started process (PID=27031) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:14:43,940] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:14:43,941] {logging_mixin.py:109} INFO - [2022-05-08 10:14:43,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:14:44,098] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:14:44,131] {logging_mixin.py:109} INFO - [2022-05-08 10:14:44,131] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:14:44,155] {logging_mixin.py:109} INFO - [2022-05-08 10:14:44,155] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:14:44,170] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.238 seconds
+[2022-05-08 10:15:14,310] {processor.py:163} INFO - Started process (PID=27084) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:15:14,313] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:15:14,315] {logging_mixin.py:109} INFO - [2022-05-08 10:15:14,315] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:15:14,467] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:15:14,501] {logging_mixin.py:109} INFO - [2022-05-08 10:15:14,501] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:15:14,524] {logging_mixin.py:109} INFO - [2022-05-08 10:15:14,524] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:15:14,544] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.239 seconds
+[2022-05-08 10:15:44,920] {processor.py:163} INFO - Started process (PID=27144) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:15:44,925] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:15:44,931] {logging_mixin.py:109} INFO - [2022-05-08 10:15:44,930] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:15:45,185] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:15:45,230] {logging_mixin.py:109} INFO - [2022-05-08 10:15:45,230] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:15:45,275] {logging_mixin.py:109} INFO - [2022-05-08 10:15:45,275] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:15:45,295] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.386 seconds
+[2022-05-08 10:16:15,555] {processor.py:163} INFO - Started process (PID=27197) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:16:15,558] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:16:15,560] {logging_mixin.py:109} INFO - [2022-05-08 10:16:15,560] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:16:15,718] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:16:15,753] {logging_mixin.py:109} INFO - [2022-05-08 10:16:15,753] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:16:15,778] {logging_mixin.py:109} INFO - [2022-05-08 10:16:15,778] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:16:15,795] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.248 seconds
+[2022-05-08 10:16:46,569] {processor.py:163} INFO - Started process (PID=27251) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:16:46,572] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:16:46,575] {logging_mixin.py:109} INFO - [2022-05-08 10:16:46,575] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:16:46,760] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:16:46,797] {logging_mixin.py:109} INFO - [2022-05-08 10:16:46,796] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:16:46,824] {logging_mixin.py:109} INFO - [2022-05-08 10:16:46,824] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:16:46,847] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.284 seconds
+[2022-05-08 10:17:17,026] {processor.py:163} INFO - Started process (PID=27305) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:17:17,030] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:17:17,033] {logging_mixin.py:109} INFO - [2022-05-08 10:17:17,033] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:17:17,178] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:17:17,211] {logging_mixin.py:109} INFO - [2022-05-08 10:17:17,211] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:17:17,234] {logging_mixin.py:109} INFO - [2022-05-08 10:17:17,234] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:17:17,248] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.228 seconds
+[2022-05-08 10:17:47,379] {processor.py:163} INFO - Started process (PID=27360) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:17:47,384] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:17:47,386] {logging_mixin.py:109} INFO - [2022-05-08 10:17:47,386] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:17:47,558] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:17:47,601] {logging_mixin.py:109} INFO - [2022-05-08 10:17:47,601] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:17:47,638] {logging_mixin.py:109} INFO - [2022-05-08 10:17:47,638] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:17:47,659] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.290 seconds
+[2022-05-08 10:18:17,727] {processor.py:163} INFO - Started process (PID=27420) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:18:17,733] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:18:17,737] {logging_mixin.py:109} INFO - [2022-05-08 10:18:17,737] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:18:17,913] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:18:17,962] {logging_mixin.py:109} INFO - [2022-05-08 10:18:17,961] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:18:17,991] {logging_mixin.py:109} INFO - [2022-05-08 10:18:17,991] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:18:18,021] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.303 seconds
+[2022-05-08 10:18:48,623] {processor.py:163} INFO - Started process (PID=27472) to work on /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:18:48,626] {processor.py:642} INFO - Processing file /opt/airflow/dags/sparkify_dag.py for tasks to queue
+[2022-05-08 10:18:48,629] {logging_mixin.py:109} INFO - [2022-05-08 10:18:48,628] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:18:48,790] {processor.py:652} INFO - DAG(s) dict_keys(['sparkify_ELT']) retrieved from /opt/airflow/dags/sparkify_dag.py
+[2022-05-08 10:18:48,829] {logging_mixin.py:109} INFO - [2022-05-08 10:18:48,829] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:18:48,852] {logging_mixin.py:109} INFO - [2022-05-08 10:18:48,852] {dag.py:2937} INFO - Setting next_dagrun for sparkify_ELT to 2018-11-01T00:00:00+00:00
+[2022-05-08 10:18:48,870] {processor.py:171} INFO - Processing /opt/airflow/dags/sparkify_dag.py took 0.254 seconds
