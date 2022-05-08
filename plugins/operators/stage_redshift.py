@@ -61,6 +61,7 @@ class StageToRedshiftOperator(BaseOperator):
         else:
             self.log.error("File not supported at the moment")
 
+        self.log.info(f"Copying data to {self.destination_table}")
         formatted_sql = StageToRedshiftOperator.sql.format(
             self.destination_table,
             s3_path,
@@ -73,6 +74,6 @@ class StageToRedshiftOperator(BaseOperator):
 
         redshift_hook.run(completed_sql)
 
-
+        self.log.info("copy completed")
 
 

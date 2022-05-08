@@ -15,3 +15,16 @@ sql_formatted = sql + file_format
 print(sql_formatted)
 
 print(sql + files_csv)
+
+sql2 = \
+        """
+        INSERT INTO {}
+        """
+user_table_insert = (
+    """
+        SELECT distinct userid, firstname, lastname, gender, level
+        FROM staging_events
+        WHERE page='NextSong'
+    """)
+
+print(sql2.format(json_path) + user_table_insert)

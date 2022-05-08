@@ -3,6 +3,8 @@ from datetime import datetime, timedelta
 from airflow.operators.dummy import DummyOperator
 from airflow.utils.task_group import TaskGroup
 from operators.stage_redshift import StageToRedshiftOperator
+from operators.load_fact import LoadFactOperator
+from helpers.sql_queries import SqlQueries
 
 default_args = {
     "owner": "Mide Clp",
@@ -26,6 +28,7 @@ with DAG(
         task_id="begin_execution",
         dag=dag
     )
+
     with TaskGroup("staging") as staging:
 
         stage_song = StageToRedshiftOperator(
@@ -53,4 +56,11 @@ with DAG(
             json_path="s3://udacity-dend/log_json_path.json",
         )
 
-    begin_execution >> staging
+    load_songplay_fact_table = LoadFactOperator(
+        task_id="load_songplay_fact_table",
+        redshift_conn_id="redshift",
+        table="songplays",
+        sql=SqlQueries.songplay_table_insert
+    )
+
+    begin_execution >> staging >> load_songplay_fact_table
