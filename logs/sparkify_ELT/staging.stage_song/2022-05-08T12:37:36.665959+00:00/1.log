@@ -1,0 +1,3 @@
+[2022-05-08 12:37:44,362] {taskinstance.py:1037} INFO - Dependencies not met for <TaskInstance: sparkify_ELT.staging.stage_song manual__2022-05-08T12:37:36.665959+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2022-05-08T12:37:36.665959+00:00 but this is after the task's end date 2018-11-30T00:00:00+00:00.
+[2022-05-08 12:37:44,365] {taskinstance.py:1037} INFO - Dependencies not met for <TaskInstance: sparkify_ELT.staging.stage_song manual__2022-05-08T12:37:36.665959+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2022-05-08T12:37:36.665959+00:00 but this is after the task's DAG's end date 2018-11-30T00:00:00+00:00.
+[2022-05-08 12:37:44,384] {local_task_job.py:99} INFO - Task is not able to be run

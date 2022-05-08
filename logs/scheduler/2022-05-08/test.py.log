@@ -523,3 +523,247 @@
 [2022-05-08 10:09:34,234] {logging_mixin.py:109} INFO - [2022-05-08 10:09:34,234] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-05-08 10:09:34,442] {logging_mixin.py:109} INFO - [2022-05-08 10:09:34,441] {dag.py:2937} INFO - Setting next_dagrun for example_task_group to 2022-05-06T00:00:00+00:00
 [2022-05-08 10:09:34,526] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.943 seconds
+[2022-05-08 11:59:52,991] {processor.py:163} INFO - Started process (PID=33778) to work on /opt/airflow/dags/test.py
+[2022-05-08 11:59:53,000] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 11:59:53,006] {logging_mixin.py:109} INFO - [2022-05-08 11:59:53,006] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 11:59:54,609] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 11:59:57,478] {logging_mixin.py:109} INFO - [2022-05-08 11:59:57,478] {manager.py:496} INFO - Created Permission View: can read on DAG:s3ToRedshift
+[2022-05-08 11:59:57,492] {logging_mixin.py:109} INFO - [2022-05-08 11:59:57,492] {manager.py:496} INFO - Created Permission View: can edit on DAG:s3ToRedshift
+[2022-05-08 11:59:57,494] {logging_mixin.py:109} INFO - [2022-05-08 11:59:57,494] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:59:57,505] {logging_mixin.py:109} INFO - [2022-05-08 11:59:57,505] {dag.py:2417} INFO - Creating ORM DAG for s3ToRedshift
+[2022-05-08 11:59:57,514] {logging_mixin.py:109} INFO - [2022-05-08 11:59:57,514] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 11:59:57,530] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 4.546 seconds
+[2022-05-08 12:00:16,549] {processor.py:163} INFO - Started process (PID=33826) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:00:16,555] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:00:16,558] {logging_mixin.py:109} INFO - [2022-05-08 12:00:16,558] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:00:17,558] {logging_mixin.py:109} INFO - [2022-05-08 12:00:17,552] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 61, in <module>
+    python_callable=load_data_to_redshift,
+NameError: name 'load_data_to_redshift' is not defined
+[2022-05-08 12:00:17,560] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:00:17,605] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.065 seconds
+[2022-05-08 12:00:27,570] {processor.py:163} INFO - Started process (PID=33849) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:00:27,574] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:00:27,576] {logging_mixin.py:109} INFO - [2022-05-08 12:00:27,576] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:00:28,557] {logging_mixin.py:109} INFO - [2022-05-08 12:00:28,553] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 73, in <module>
+    copy_task >> check_trips
+NameError: name 'copy_task' is not defined
+[2022-05-08 12:00:28,559] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:00:28,616] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.051 seconds
+[2022-05-08 12:00:30,635] {processor.py:163} INFO - Started process (PID=33853) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:00:30,638] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:00:30,642] {logging_mixin.py:109} INFO - [2022-05-08 12:00:30,641] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:00:30,674] {logging_mixin.py:109} INFO - [2022-05-08 12:00:30,672] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 73
+    check_trips
+    ^
+IndentationError: unexpected indent
+[2022-05-08 12:00:30,680] {processor.py:654} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:00:30,756] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.133 seconds
+[2022-05-08 12:00:47,890] {processor.py:163} INFO - Started process (PID=33898) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:00:47,895] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:00:47,897] {logging_mixin.py:109} INFO - [2022-05-08 12:00:47,897] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:00:48,771] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:00:48,874] {logging_mixin.py:109} INFO - [2022-05-08 12:00:48,874] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:00:48,910] {logging_mixin.py:109} INFO - [2022-05-08 12:00:48,909] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:00:48,961] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.081 seconds
+[2022-05-08 12:01:19,546] {processor.py:163} INFO - Started process (PID=33956) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:01:19,562] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:01:19,566] {logging_mixin.py:109} INFO - [2022-05-08 12:01:19,566] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:01:20,309] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:01:20,340] {logging_mixin.py:109} INFO - [2022-05-08 12:01:20,340] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:01:20,367] {logging_mixin.py:109} INFO - [2022-05-08 12:01:20,366] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:01:20,382] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.848 seconds
+[2022-05-08 12:01:50,885] {processor.py:163} INFO - Started process (PID=34014) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:01:50,887] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:01:50,890] {logging_mixin.py:109} INFO - [2022-05-08 12:01:50,890] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:01:51,448] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:01:51,469] {logging_mixin.py:109} INFO - [2022-05-08 12:01:51,469] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:01:51,484] {logging_mixin.py:109} INFO - [2022-05-08 12:01:51,484] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:01:51,501] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.620 seconds
+[2022-05-08 12:02:21,659] {processor.py:163} INFO - Started process (PID=34081) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:02:21,667] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:02:21,673] {logging_mixin.py:109} INFO - [2022-05-08 12:02:21,672] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:02:22,425] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:02:22,450] {logging_mixin.py:109} INFO - [2022-05-08 12:02:22,449] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:02:22,467] {logging_mixin.py:109} INFO - [2022-05-08 12:02:22,467] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:02:22,489] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.844 seconds
+[2022-05-08 12:02:52,570] {processor.py:163} INFO - Started process (PID=34137) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:02:52,573] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:02:52,575] {logging_mixin.py:109} INFO - [2022-05-08 12:02:52,575] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:02:53,223] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:02:53,258] {logging_mixin.py:109} INFO - [2022-05-08 12:02:53,258] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:02:53,277] {logging_mixin.py:109} INFO - [2022-05-08 12:02:53,277] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:02:53,298] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.733 seconds
+[2022-05-08 12:03:23,479] {processor.py:163} INFO - Started process (PID=34194) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:03:23,485] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:03:23,487] {logging_mixin.py:109} INFO - [2022-05-08 12:03:23,487] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:03:24,184] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:03:24,220] {logging_mixin.py:109} INFO - [2022-05-08 12:03:24,220] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:03:24,250] {logging_mixin.py:109} INFO - [2022-05-08 12:03:24,250] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:03:24,266] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.791 seconds
+[2022-05-08 12:03:54,564] {processor.py:163} INFO - Started process (PID=34262) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:03:54,568] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:03:54,570] {logging_mixin.py:109} INFO - [2022-05-08 12:03:54,570] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:03:55,099] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:03:55,122] {logging_mixin.py:109} INFO - [2022-05-08 12:03:55,121] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:03:55,152] {logging_mixin.py:109} INFO - [2022-05-08 12:03:55,151] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:03:55,186] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.626 seconds
+[2022-05-08 12:04:25,587] {processor.py:163} INFO - Started process (PID=34320) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:04:25,592] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:04:25,594] {logging_mixin.py:109} INFO - [2022-05-08 12:04:25,593] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:04:26,261] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:04:26,293] {logging_mixin.py:109} INFO - [2022-05-08 12:04:26,292] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:04:26,314] {logging_mixin.py:109} INFO - [2022-05-08 12:04:26,314] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:04:26,340] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.757 seconds
+[2022-05-08 12:04:56,776] {processor.py:163} INFO - Started process (PID=34379) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:04:56,792] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:04:56,811] {logging_mixin.py:109} INFO - [2022-05-08 12:04:56,811] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:04:58,009] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:04:58,038] {logging_mixin.py:109} INFO - [2022-05-08 12:04:58,038] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:04:58,057] {logging_mixin.py:109} INFO - [2022-05-08 12:04:58,057] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:04:58,072] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.312 seconds
+[2022-05-08 12:05:28,432] {processor.py:163} INFO - Started process (PID=34437) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:05:28,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:05:28,446] {logging_mixin.py:109} INFO - [2022-05-08 12:05:28,446] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:05:29,322] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:05:29,362] {logging_mixin.py:109} INFO - [2022-05-08 12:05:29,361] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:05:29,387] {logging_mixin.py:109} INFO - [2022-05-08 12:05:29,386] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:05:29,409] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.993 seconds
+[2022-05-08 12:05:59,598] {processor.py:163} INFO - Started process (PID=34495) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:05:59,601] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:05:59,603] {logging_mixin.py:109} INFO - [2022-05-08 12:05:59,603] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:06:00,198] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:06:00,226] {logging_mixin.py:109} INFO - [2022-05-08 12:06:00,225] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:06:00,245] {logging_mixin.py:109} INFO - [2022-05-08 12:06:00,245] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:06:00,263] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.673 seconds
+[2022-05-08 12:06:30,325] {processor.py:163} INFO - Started process (PID=34562) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:06:30,329] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:06:30,331] {logging_mixin.py:109} INFO - [2022-05-08 12:06:30,331] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:06:30,920] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:06:30,944] {logging_mixin.py:109} INFO - [2022-05-08 12:06:30,943] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:06:30,960] {logging_mixin.py:109} INFO - [2022-05-08 12:06:30,960] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:06:30,978] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.661 seconds
+[2022-05-08 12:07:01,130] {processor.py:163} INFO - Started process (PID=34618) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:07:01,133] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:07:01,136] {logging_mixin.py:109} INFO - [2022-05-08 12:07:01,135] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:07:02,056] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:07:02,096] {logging_mixin.py:109} INFO - [2022-05-08 12:07:02,096] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:07:02,138] {logging_mixin.py:109} INFO - [2022-05-08 12:07:02,138] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:07:02,160] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.038 seconds
+[2022-05-08 12:07:32,540] {processor.py:163} INFO - Started process (PID=34675) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:07:32,544] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:07:32,546] {logging_mixin.py:109} INFO - [2022-05-08 12:07:32,546] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:07:33,240] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:07:33,269] {logging_mixin.py:109} INFO - [2022-05-08 12:07:33,268] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:07:33,290] {logging_mixin.py:109} INFO - [2022-05-08 12:07:33,290] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:07:33,308] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.778 seconds
+[2022-05-08 12:08:03,446] {processor.py:163} INFO - Started process (PID=34740) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:08:03,449] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:08:03,451] {logging_mixin.py:109} INFO - [2022-05-08 12:08:03,451] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:08:04,071] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:08:04,105] {logging_mixin.py:109} INFO - [2022-05-08 12:08:04,104] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:08:04,125] {logging_mixin.py:109} INFO - [2022-05-08 12:08:04,125] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:08:04,154] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.713 seconds
+[2022-05-08 12:08:35,033] {processor.py:163} INFO - Started process (PID=34797) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:08:35,040] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:08:35,042] {logging_mixin.py:109} INFO - [2022-05-08 12:08:35,042] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:08:36,392] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:08:36,433] {logging_mixin.py:109} INFO - [2022-05-08 12:08:36,433] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:08:36,488] {logging_mixin.py:109} INFO - [2022-05-08 12:08:36,487] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:08:36,512] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.494 seconds
+[2022-05-08 12:09:06,608] {processor.py:163} INFO - Started process (PID=34859) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:09:06,611] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:09:06,613] {logging_mixin.py:109} INFO - [2022-05-08 12:09:06,613] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:09:07,309] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:09:07,333] {logging_mixin.py:109} INFO - [2022-05-08 12:09:07,332] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:09:07,350] {logging_mixin.py:109} INFO - [2022-05-08 12:09:07,350] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:09:07,368] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.765 seconds
+[2022-05-08 12:09:38,059] {processor.py:163} INFO - Started process (PID=34926) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:09:38,062] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:09:38,063] {logging_mixin.py:109} INFO - [2022-05-08 12:09:38,063] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:09:38,678] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:09:38,707] {logging_mixin.py:109} INFO - [2022-05-08 12:09:38,707] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:09:38,725] {logging_mixin.py:109} INFO - [2022-05-08 12:09:38,725] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:09:38,745] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.691 seconds
+[2022-05-08 12:10:08,902] {processor.py:163} INFO - Started process (PID=34988) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:10:08,914] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:10:08,926] {logging_mixin.py:109} INFO - [2022-05-08 12:10:08,921] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:10:09,726] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:10:09,759] {logging_mixin.py:109} INFO - [2022-05-08 12:10:09,759] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:10:09,781] {logging_mixin.py:109} INFO - [2022-05-08 12:10:09,781] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:10:09,826] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.937 seconds
+[2022-05-08 12:10:40,468] {processor.py:163} INFO - Started process (PID=35058) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:10:40,472] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:10:40,475] {logging_mixin.py:109} INFO - [2022-05-08 12:10:40,475] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:10:41,092] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:10:41,121] {logging_mixin.py:109} INFO - [2022-05-08 12:10:41,121] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:10:41,140] {logging_mixin.py:109} INFO - [2022-05-08 12:10:41,140] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:10:41,157] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.698 seconds
+[2022-05-08 12:11:11,238] {processor.py:163} INFO - Started process (PID=35112) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:11:11,243] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:11:11,248] {logging_mixin.py:109} INFO - [2022-05-08 12:11:11,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:11:12,121] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:11:12,156] {logging_mixin.py:109} INFO - [2022-05-08 12:11:12,156] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:11:12,186] {logging_mixin.py:109} INFO - [2022-05-08 12:11:12,186] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:11:12,208] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.979 seconds
+[2022-05-08 12:11:42,891] {processor.py:163} INFO - Started process (PID=35167) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:11:42,895] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:11:42,897] {logging_mixin.py:109} INFO - [2022-05-08 12:11:42,897] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:11:43,603] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:11:43,637] {logging_mixin.py:109} INFO - [2022-05-08 12:11:43,636] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:11:43,660] {logging_mixin.py:109} INFO - [2022-05-08 12:11:43,660] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:11:43,676] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.825 seconds
+[2022-05-08 12:12:14,524] {processor.py:163} INFO - Started process (PID=35237) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:12:14,534] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:12:14,545] {logging_mixin.py:109} INFO - [2022-05-08 12:12:14,545] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:12:15,623] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:12:15,666] {logging_mixin.py:109} INFO - [2022-05-08 12:12:15,666] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:12:15,746] {logging_mixin.py:109} INFO - [2022-05-08 12:12:15,746] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:12:15,776] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.258 seconds
+[2022-05-08 12:12:46,019] {processor.py:163} INFO - Started process (PID=35295) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:12:46,024] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:12:46,029] {logging_mixin.py:109} INFO - [2022-05-08 12:12:46,028] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:12:50,352] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:12:50,567] {logging_mixin.py:109} INFO - [2022-05-08 12:12:50,561] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:12:50,805] {logging_mixin.py:109} INFO - [2022-05-08 12:12:50,804] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:12:50,944] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 4.943 seconds
+[2022-05-08 12:13:21,137] {processor.py:163} INFO - Started process (PID=35359) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:13:21,148] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:13:21,159] {logging_mixin.py:109} INFO - [2022-05-08 12:13:21,158] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:13:22,176] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:13:22,248] {logging_mixin.py:109} INFO - [2022-05-08 12:13:22,247] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:13:22,283] {logging_mixin.py:109} INFO - [2022-05-08 12:13:22,283] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:13:22,312] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 1.190 seconds
+[2022-05-08 12:13:52,531] {processor.py:163} INFO - Started process (PID=35419) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:13:52,559] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:13:52,566] {logging_mixin.py:109} INFO - [2022-05-08 12:13:52,566] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:13:57,495] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:13:57,563] {logging_mixin.py:109} INFO - [2022-05-08 12:13:57,562] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:13:57,614] {logging_mixin.py:109} INFO - [2022-05-08 12:13:57,614] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:13:57,648] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 5.147 seconds
+[2022-05-08 12:14:27,854] {processor.py:163} INFO - Started process (PID=35479) to work on /opt/airflow/dags/test.py
+[2022-05-08 12:14:27,858] {processor.py:642} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2022-05-08 12:14:27,889] {logging_mixin.py:109} INFO - [2022-05-08 12:14:27,888] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2022-05-08 12:14:28,631] {processor.py:652} INFO - DAG(s) dict_keys(['s3ToRedshift']) retrieved from /opt/airflow/dags/test.py
+[2022-05-08 12:14:28,664] {logging_mixin.py:109} INFO - [2022-05-08 12:14:28,664] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 12:14:28,685] {logging_mixin.py:109} INFO - [2022-05-08 12:14:28,685] {dag.py:2937} INFO - Setting next_dagrun for s3ToRedshift to 2022-04-29T00:00:00+00:00
+[2022-05-08 12:14:28,702] {processor.py:171} INFO - Processing /opt/airflow/dags/test.py took 0.856 seconds

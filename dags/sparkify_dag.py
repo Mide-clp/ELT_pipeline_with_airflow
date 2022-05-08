@@ -5,6 +5,7 @@ from airflow.utils.task_group import TaskGroup
 from operators.stage_redshift import StageToRedshiftOperator
 from operators.load_fact import LoadFactOperator
 from operators.load_dimensions import LoadDimensionOperator
+from operators.data_quality import DataQualityOperator
 from helpers.sql_queries import SqlQueries
 
 default_args = {
@@ -36,7 +37,7 @@ with DAG(
             aws_credentials_id="aws_credentials",
             redshift_conn_id="redshift",
             s3_bucket="udacity-dend",
-            s3_key="song_data/A/A/A",
+            s3_key="song_data/A",
             file_format="json",
             region="us-west-2",
             json_path="auto",
@@ -95,4 +96,40 @@ with DAG(
             sql=SqlQueries.time_table_insert
         )
 
-    begin_execution >> staging >> load_songplay_fact_table >> load_dimension
+    with TaskGroup("data_quality") as data_quality:
+
+        songplay_check = DataQualityOperator(
+            task_id="songplay_check",
+            table="songplays",
+            redshift_conn_id="redshift"
+        )
+
+        user_check = DataQualityOperator(
+            task_id="user_check",
+            table="users",
+            redshift_conn_id="redshift"
+        )
+
+        songs_check = DataQualityOperator(
+            task_id="songs_check",
+            table="songs",
+            redshift_conn_id="redshift"
+        )
+
+        artist_check = DataQualityOperator(
+            task_id="artist_check",
+            table="artists",
+            redshift_conn_id="redshift"
+        )
+
+        time_check = DataQualityOperator(
+            task_id="time_check",
+            table="time",
+            redshift_conn_id="redshift"
+        )
+
+    end_execution = DummyOperator(
+        task_id="end_execution",
+        dag=dag
+    )
+    begin_execution >> staging >> load_songplay_fact_table >> load_dimension >> data_quality >> end_execution

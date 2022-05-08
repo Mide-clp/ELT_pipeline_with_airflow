@@ -1,0 +1,36 @@
+[2022-05-08 12:56:33,625] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: sparkify_ELT.load_dimensions_table.load_dimension_user scheduled__2018-11-01T00:00:00+00:00 [queued]>
+[2022-05-08 12:56:33,650] {taskinstance.py:1043} INFO - Dependencies all met for <TaskInstance: sparkify_ELT.load_dimensions_table.load_dimension_user scheduled__2018-11-01T00:00:00+00:00 [queued]>
+[2022-05-08 12:56:33,651] {taskinstance.py:1249} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-08 12:56:33,652] {taskinstance.py:1250} INFO - Starting attempt 1 of 4
+[2022-05-08 12:56:33,654] {taskinstance.py:1251} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-08 12:56:33,712] {taskinstance.py:1270} INFO - Executing <Task(LoadDimensionOperator): load_dimensions_table.load_dimension_user> on 2018-11-01 00:00:00+00:00
+[2022-05-08 12:56:33,731] {standard_task_runner.py:52} INFO - Started process 15374 to run task
+[2022-05-08 12:56:33,763] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'sparkify_ELT', 'load_dimensions_table.load_dimension_user', 'scheduled__2018-11-01T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/sparkify_dag.py', '--cfg-path', '/tmp/tmpyatz7li_', '--error-file', '/tmp/tmpeq6yqv2h']
+[2022-05-08 12:56:33,767] {standard_task_runner.py:80} INFO - Job 18: Subtask load_dimensions_table.load_dimension_user
+[2022-05-08 12:56:33,999] {logging_mixin.py:109} INFO - Running <TaskInstance: sparkify_ELT.load_dimensions_table.load_dimension_user scheduled__2018-11-01T00:00:00+00:00 [running]> on host aee4597ac0c9
+[2022-05-08 12:56:34,309] {taskinstance.py:1448} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Mide Clp
+AIRFLOW_CTX_DAG_ID=sparkify_ELT
+AIRFLOW_CTX_TASK_ID=load_dimensions_table.load_dimension_user
+AIRFLOW_CTX_EXECUTION_DATE=2018-11-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2018-11-01T00:00:00+00:00
+[2022-05-08 12:56:34,323] {load_dimensions.py:36} INFO - Implementing LoadDimensionOperator
+[2022-05-08 12:56:34,336] {load_dimensions.py:42} INFO - Running truncate-insert data into users
+[2022-05-08 12:56:34,344] {load_dimensions.py:44} INFO - Deleting rows in table
+[2022-05-08 12:56:34,432] {base.py:79} INFO - Using connection to: id: redshift. Host: redshift-cluster-2.cpqr7pji6nyj.us-east-1.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: ***, extra: {'keepalives': 1, 'keepalives_idle': 60, 'keepalives_interval': 10, 'keepalives_count': 5}
+[2022-05-08 12:56:36,021] {dbapi.py:225} INFO - Running statement: TRUNCATE TABLE users, parameters: None
+[2022-05-08 12:56:36,749] {base.py:79} INFO - Using connection to: id: redshift. Host: redshift-cluster-2.cpqr7pji6nyj.us-east-1.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: ***, extra: {'keepalives': 1, 'keepalives_idle': 60, 'keepalives_interval': 10, 'keepalives_count': 5}
+[2022-05-08 12:56:38,324] {dbapi.py:225} INFO - Running statement: 
+        INSERT INTO users
+        
+        SELECT distinct userid, firstname, lastname, gender, level
+        FROM staging_events
+        WHERE page='NextSong'
+    , parameters: None
+[2022-05-08 12:56:39,278] {dbapi.py:233} INFO - Rows affected: 104
+[2022-05-08 12:56:39,728] {load_dimensions.py:49} INFO - Insert into users completed
+[2022-05-08 12:56:39,749] {taskinstance.py:1288} INFO - Marking task as SUCCESS. dag_id=sparkify_ELT, task_id=load_dimensions_table.load_dimension_user, execution_date=20181101T000000, start_date=20220508T125633, end_date=20220508T125639
+[2022-05-08 12:56:39,819] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-05-08 12:56:39,893] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
