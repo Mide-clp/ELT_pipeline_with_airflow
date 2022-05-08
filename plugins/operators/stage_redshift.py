@@ -28,6 +28,22 @@ class StageToRedshiftOperator(BaseOperator):
                  delimiter=",",
                  *args, **kwargs):
 
+        """
+
+        :param destination_table:
+        :param redshift_conn_id:
+        :param aws_credentials_id:
+        :param s3_bucket:
+        :param s3_key:
+        :param file_format:
+        :param region:
+        :param json_path:
+        :param ignore_headers:
+        :param delimiter:
+        :param args:
+        :param kwargs:
+        """
+
         super(StageToRedshiftOperator, self).__init__(*args, **kwargs)
         self.destination_table = destination_table
         self.redshift_conn_id = redshift_conn_id

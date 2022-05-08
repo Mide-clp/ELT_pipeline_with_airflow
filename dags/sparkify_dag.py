@@ -4,6 +4,7 @@ from airflow.operators.dummy import DummyOperator
 from airflow.utils.task_group import TaskGroup
 from operators.stage_redshift import StageToRedshiftOperator
 from operators.load_fact import LoadFactOperator
+from operators.load_dimensions import LoadDimensionOperator
 from helpers.sql_queries import SqlQueries
 
 default_args = {
@@ -23,14 +24,12 @@ with DAG(
         schedule_interval="@monthly",
         description=" ELT pipeline for loading sparkify music data to the data warehouse"
 ) as dag:
-
     begin_execution = DummyOperator(
         task_id="begin_execution",
         dag=dag
     )
 
     with TaskGroup("staging") as staging:
-
         stage_song = StageToRedshiftOperator(
             task_id="stage_song",
             destination_table="staging_songs",
@@ -63,4 +62,37 @@ with DAG(
         sql=SqlQueries.songplay_table_insert
     )
 
-    begin_execution >> staging >> load_songplay_fact_table
+    with TaskGroup("load_dimensions_table") as load_dimension:
+        load_dimension_user = LoadDimensionOperator(
+            task_id="load_dimension_user",
+            table="users",
+            mode="truncate-insert",
+            redshift_conn_id="redshift",
+            sql=SqlQueries.user_table_insert
+        )
+
+        load_dimension_artist = LoadDimensionOperator(
+            task_id="load_dimension_artist",
+            table="artists",
+            mode="truncate-insert",
+            redshift_conn_id="redshift",
+            sql=SqlQueries.artist_table_insert
+        )
+
+        load_dimension_song = LoadDimensionOperator(
+            task_id="load_dimension_song",
+            table="songs",
+            mode="truncate-insert",
+            redshift_conn_id="redshift",
+            sql=SqlQueries.song_table_insert
+        )
+
+        load_dimension_time = LoadDimensionOperator(
+            task_id="load_dimension_time",
+            table="time",
+            mode="truncate-insert",
+            redshift_conn_id="redshift",
+            sql=SqlQueries.time_table_insert
+        )
+
+    begin_execution >> staging >> load_songplay_fact_table >> load_dimension

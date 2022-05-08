@@ -852,3 +852,507 @@
 [2022-05-08 10:35:37,355] {logging_mixin.py:109} INFO - [2022-05-08 10:35:37,355] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-05-08 10:35:37,398] {logging_mixin.py:109} INFO - [2022-05-08 10:35:37,398] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
 [2022-05-08 10:35:37,417] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.177 seconds
+[2022-05-08 10:36:08,511] {processor.py:163} INFO - Started process (PID=29357) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:36:08,516] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:36:08,519] {logging_mixin.py:109} INFO - [2022-05-08 10:36:08,519] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:36:08,550] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:36:08,590] {logging_mixin.py:109} INFO - [2022-05-08 10:36:08,589] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:36:08,622] {logging_mixin.py:109} INFO - [2022-05-08 10:36:08,622] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:36:08,640] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.136 seconds
+[2022-05-08 10:36:40,954] {processor.py:163} INFO - Started process (PID=29409) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:36:40,963] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:36:40,969] {logging_mixin.py:109} INFO - [2022-05-08 10:36:40,968] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:36:41,044] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:36:41,162] {logging_mixin.py:109} INFO - [2022-05-08 10:36:41,161] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:36:41,245] {logging_mixin.py:109} INFO - [2022-05-08 10:36:41,245] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:36:41,309] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.369 seconds
+[2022-05-08 10:37:11,516] {processor.py:163} INFO - Started process (PID=29464) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:37:11,520] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:37:11,522] {logging_mixin.py:109} INFO - [2022-05-08 10:37:11,522] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:37:11,546] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:37:11,582] {logging_mixin.py:109} INFO - [2022-05-08 10:37:11,581] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:37:11,604] {logging_mixin.py:109} INFO - [2022-05-08 10:37:11,603] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:37:11,623] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.111 seconds
+[2022-05-08 10:37:42,041] {processor.py:163} INFO - Started process (PID=29524) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:37:42,046] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:37:42,049] {logging_mixin.py:109} INFO - [2022-05-08 10:37:42,048] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:37:42,086] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:37:42,130] {logging_mixin.py:109} INFO - [2022-05-08 10:37:42,130] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:37:42,153] {logging_mixin.py:109} INFO - [2022-05-08 10:37:42,153] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:37:42,171] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.135 seconds
+[2022-05-08 10:38:13,246] {processor.py:163} INFO - Started process (PID=29579) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:38:13,250] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:38:13,252] {logging_mixin.py:109} INFO - [2022-05-08 10:38:13,252] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:38:13,281] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:38:13,343] {logging_mixin.py:109} INFO - [2022-05-08 10:38:13,342] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:38:13,372] {logging_mixin.py:109} INFO - [2022-05-08 10:38:13,372] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:38:13,397] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.158 seconds
+[2022-05-08 10:38:44,424] {processor.py:163} INFO - Started process (PID=29632) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:38:44,427] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:38:44,429] {logging_mixin.py:109} INFO - [2022-05-08 10:38:44,428] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:38:44,453] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:38:44,492] {logging_mixin.py:109} INFO - [2022-05-08 10:38:44,492] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:38:44,524] {logging_mixin.py:109} INFO - [2022-05-08 10:38:44,524] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:38:44,548] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.130 seconds
+[2022-05-08 10:39:15,219] {processor.py:163} INFO - Started process (PID=29697) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:39:15,223] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:39:15,226] {logging_mixin.py:109} INFO - [2022-05-08 10:39:15,225] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:39:15,252] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:39:15,289] {logging_mixin.py:109} INFO - [2022-05-08 10:39:15,289] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:39:15,312] {logging_mixin.py:109} INFO - [2022-05-08 10:39:15,311] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:39:15,330] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.117 seconds
+[2022-05-08 10:39:45,792] {processor.py:163} INFO - Started process (PID=29750) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:39:45,795] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:39:45,797] {logging_mixin.py:109} INFO - [2022-05-08 10:39:45,796] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:39:45,821] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:39:45,856] {logging_mixin.py:109} INFO - [2022-05-08 10:39:45,856] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:39:45,879] {logging_mixin.py:109} INFO - [2022-05-08 10:39:45,879] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:39:45,897] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.112 seconds
+[2022-05-08 10:40:16,904] {processor.py:163} INFO - Started process (PID=29815) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:40:16,907] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:40:16,909] {logging_mixin.py:109} INFO - [2022-05-08 10:40:16,909] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:40:16,937] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:40:16,971] {logging_mixin.py:109} INFO - [2022-05-08 10:40:16,970] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:40:16,996] {logging_mixin.py:109} INFO - [2022-05-08 10:40:16,996] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:40:17,020] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.121 seconds
+[2022-05-08 10:40:48,160] {processor.py:163} INFO - Started process (PID=29869) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:40:48,167] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:40:48,172] {logging_mixin.py:109} INFO - [2022-05-08 10:40:48,171] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:40:48,198] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:40:48,249] {logging_mixin.py:109} INFO - [2022-05-08 10:40:48,249] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:40:48,280] {logging_mixin.py:109} INFO - [2022-05-08 10:40:48,280] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:40:48,298] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.149 seconds
+[2022-05-08 10:41:19,334] {processor.py:163} INFO - Started process (PID=29922) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:41:19,341] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:41:19,346] {logging_mixin.py:109} INFO - [2022-05-08 10:41:19,345] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:41:19,376] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:41:19,415] {logging_mixin.py:109} INFO - [2022-05-08 10:41:19,415] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:41:19,442] {logging_mixin.py:109} INFO - [2022-05-08 10:41:19,442] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:41:19,468] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.145 seconds
+[2022-05-08 10:41:50,362] {processor.py:163} INFO - Started process (PID=29983) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:41:50,365] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:41:50,367] {logging_mixin.py:109} INFO - [2022-05-08 10:41:50,367] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:41:50,391] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:41:50,426] {logging_mixin.py:109} INFO - [2022-05-08 10:41:50,426] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:41:50,448] {logging_mixin.py:109} INFO - [2022-05-08 10:41:50,448] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:41:50,465] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.109 seconds
+[2022-05-08 10:42:20,796] {processor.py:163} INFO - Started process (PID=30035) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:42:20,801] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:42:20,804] {logging_mixin.py:109} INFO - [2022-05-08 10:42:20,803] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:42:20,833] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:42:20,875] {logging_mixin.py:109} INFO - [2022-05-08 10:42:20,875] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:42:20,910] {logging_mixin.py:109} INFO - [2022-05-08 10:42:20,910] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:42:20,933] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.146 seconds
+[2022-05-08 10:42:51,196] {processor.py:163} INFO - Started process (PID=30088) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:42:51,199] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:42:51,201] {logging_mixin.py:109} INFO - [2022-05-08 10:42:51,201] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:42:51,239] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:42:51,278] {logging_mixin.py:109} INFO - [2022-05-08 10:42:51,278] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:42:51,334] {logging_mixin.py:109} INFO - [2022-05-08 10:42:51,334] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:42:51,364] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.173 seconds
+[2022-05-08 10:43:21,660] {processor.py:163} INFO - Started process (PID=30150) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:43:21,664] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:43:21,666] {logging_mixin.py:109} INFO - [2022-05-08 10:43:21,666] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:43:21,692] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:43:21,733] {logging_mixin.py:109} INFO - [2022-05-08 10:43:21,732] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:43:21,777] {logging_mixin.py:109} INFO - [2022-05-08 10:43:21,777] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:43:21,811] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.158 seconds
+[2022-05-08 10:43:52,156] {processor.py:163} INFO - Started process (PID=30203) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:43:52,165] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:43:52,171] {logging_mixin.py:109} INFO - [2022-05-08 10:43:52,171] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:43:52,209] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:43:52,257] {logging_mixin.py:109} INFO - [2022-05-08 10:43:52,256] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:43:52,283] {logging_mixin.py:109} INFO - [2022-05-08 10:43:52,283] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:43:52,310] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.166 seconds
+[2022-05-08 10:44:23,030] {processor.py:163} INFO - Started process (PID=30267) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:44:23,036] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:44:23,041] {logging_mixin.py:109} INFO - [2022-05-08 10:44:23,041] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:44:23,074] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:44:23,133] {logging_mixin.py:109} INFO - [2022-05-08 10:44:23,132] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:44:23,194] {logging_mixin.py:109} INFO - [2022-05-08 10:44:23,193] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:44:23,209] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.196 seconds
+[2022-05-08 10:44:53,403] {processor.py:163} INFO - Started process (PID=30319) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:44:53,407] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:44:53,409] {logging_mixin.py:109} INFO - [2022-05-08 10:44:53,409] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:44:53,434] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:44:53,470] {logging_mixin.py:109} INFO - [2022-05-08 10:44:53,469] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:44:53,493] {logging_mixin.py:109} INFO - [2022-05-08 10:44:53,492] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:44:53,509] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.113 seconds
+[2022-05-08 10:45:23,718] {processor.py:163} INFO - Started process (PID=30371) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:45:23,724] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:45:23,729] {logging_mixin.py:109} INFO - [2022-05-08 10:45:23,728] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:45:23,762] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:45:23,827] {logging_mixin.py:109} INFO - [2022-05-08 10:45:23,827] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:45:23,874] {logging_mixin.py:109} INFO - [2022-05-08 10:45:23,874] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:45:23,894] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.195 seconds
+[2022-05-08 10:45:53,997] {processor.py:163} INFO - Started process (PID=30432) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:45:54,000] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:45:54,002] {logging_mixin.py:109} INFO - [2022-05-08 10:45:54,001] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:45:54,043] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:45:54,107] {logging_mixin.py:109} INFO - [2022-05-08 10:45:54,107] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:45:54,148] {logging_mixin.py:109} INFO - [2022-05-08 10:45:54,148] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:45:54,175] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.186 seconds
+[2022-05-08 10:46:24,302] {processor.py:163} INFO - Started process (PID=30486) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:46:24,307] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:46:24,310] {logging_mixin.py:109} INFO - [2022-05-08 10:46:24,310] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:46:24,337] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:46:24,392] {logging_mixin.py:109} INFO - [2022-05-08 10:46:24,391] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:46:24,424] {logging_mixin.py:109} INFO - [2022-05-08 10:46:24,424] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:46:24,440] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.144 seconds
+[2022-05-08 10:46:55,085] {processor.py:163} INFO - Started process (PID=30539) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:46:55,089] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:46:55,091] {logging_mixin.py:109} INFO - [2022-05-08 10:46:55,091] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:46:55,116] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:46:55,152] {logging_mixin.py:109} INFO - [2022-05-08 10:46:55,152] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:46:55,178] {logging_mixin.py:109} INFO - [2022-05-08 10:46:55,177] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:46:55,205] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.125 seconds
+[2022-05-08 10:47:25,258] {processor.py:163} INFO - Started process (PID=30592) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:47:25,261] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:47:25,263] {logging_mixin.py:109} INFO - [2022-05-08 10:47:25,263] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:47:25,291] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:47:25,325] {logging_mixin.py:109} INFO - [2022-05-08 10:47:25,325] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:47:25,365] {logging_mixin.py:109} INFO - [2022-05-08 10:47:25,365] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:47:25,384] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.131 seconds
+[2022-05-08 10:47:56,055] {processor.py:163} INFO - Started process (PID=30656) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:47:56,058] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:47:56,061] {logging_mixin.py:109} INFO - [2022-05-08 10:47:56,061] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:47:56,087] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:47:56,124] {logging_mixin.py:109} INFO - [2022-05-08 10:47:56,124] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:47:56,188] {logging_mixin.py:109} INFO - [2022-05-08 10:47:56,188] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:47:56,251] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.201 seconds
+[2022-05-08 10:48:26,819] {processor.py:163} INFO - Started process (PID=30709) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:48:26,822] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:48:26,825] {logging_mixin.py:109} INFO - [2022-05-08 10:48:26,825] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:48:26,857] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:48:26,895] {logging_mixin.py:109} INFO - [2022-05-08 10:48:26,895] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:48:26,929] {logging_mixin.py:109} INFO - [2022-05-08 10:48:26,929] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:48:26,955] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.145 seconds
+[2022-05-08 10:48:57,080] {processor.py:163} INFO - Started process (PID=30760) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:48:57,083] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:48:57,085] {logging_mixin.py:109} INFO - [2022-05-08 10:48:57,085] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:48:57,118] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:48:57,159] {logging_mixin.py:109} INFO - [2022-05-08 10:48:57,159] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:48:57,197] {logging_mixin.py:109} INFO - [2022-05-08 10:48:57,197] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:48:57,222] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.148 seconds
+[2022-05-08 10:49:27,953] {processor.py:163} INFO - Started process (PID=30812) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:49:27,960] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:49:27,964] {logging_mixin.py:109} INFO - [2022-05-08 10:49:27,964] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:49:28,061] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:49:28,135] {logging_mixin.py:109} INFO - [2022-05-08 10:49:28,134] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:49:28,179] {logging_mixin.py:109} INFO - [2022-05-08 10:49:28,179] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:49:28,207] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.264 seconds
+[2022-05-08 10:49:58,984] {processor.py:163} INFO - Started process (PID=30875) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:49:58,988] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:49:58,992] {logging_mixin.py:109} INFO - [2022-05-08 10:49:58,992] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:49:59,050] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:49:59,140] {logging_mixin.py:109} INFO - [2022-05-08 10:49:59,140] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:49:59,235] {logging_mixin.py:109} INFO - [2022-05-08 10:49:59,234] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:49:59,300] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.320 seconds
+[2022-05-08 10:50:30,088] {processor.py:163} INFO - Started process (PID=30926) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:50:30,099] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:50:30,102] {logging_mixin.py:109} INFO - [2022-05-08 10:50:30,101] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:50:30,140] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:50:30,208] {logging_mixin.py:109} INFO - [2022-05-08 10:50:30,208] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:50:30,238] {logging_mixin.py:109} INFO - [2022-05-08 10:50:30,238] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:50:30,256] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.176 seconds
+[2022-05-08 10:51:00,529] {processor.py:163} INFO - Started process (PID=30978) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:51:00,535] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:51:00,541] {logging_mixin.py:109} INFO - [2022-05-08 10:51:00,541] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:51:00,588] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:51:00,685] {logging_mixin.py:109} INFO - [2022-05-08 10:51:00,685] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:51:00,719] {logging_mixin.py:109} INFO - [2022-05-08 10:51:00,719] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:51:00,768] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.246 seconds
+[2022-05-08 10:51:31,217] {processor.py:163} INFO - Started process (PID=31033) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:51:31,221] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:51:31,226] {logging_mixin.py:109} INFO - [2022-05-08 10:51:31,226] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:51:31,259] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:51:31,303] {logging_mixin.py:109} INFO - [2022-05-08 10:51:31,302] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:51:31,348] {logging_mixin.py:109} INFO - [2022-05-08 10:51:31,348] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:51:31,385] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.173 seconds
+[2022-05-08 10:52:02,404] {processor.py:163} INFO - Started process (PID=31094) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:52:02,415] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:52:02,418] {logging_mixin.py:109} INFO - [2022-05-08 10:52:02,418] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:52:02,470] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:52:02,530] {logging_mixin.py:109} INFO - [2022-05-08 10:52:02,520] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:52:02,670] {logging_mixin.py:109} INFO - [2022-05-08 10:52:02,670] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:52:02,743] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.362 seconds
+[2022-05-08 10:52:33,026] {processor.py:163} INFO - Started process (PID=31147) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:52:33,030] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:52:33,033] {logging_mixin.py:109} INFO - [2022-05-08 10:52:33,033] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:52:33,075] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:52:33,129] {logging_mixin.py:109} INFO - [2022-05-08 10:52:33,129] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:52:33,175] {logging_mixin.py:109} INFO - [2022-05-08 10:52:33,175] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:52:33,214] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.194 seconds
+[2022-05-08 10:53:03,443] {processor.py:163} INFO - Started process (PID=31202) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:53:03,448] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:53:03,450] {logging_mixin.py:109} INFO - [2022-05-08 10:53:03,450] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:53:03,480] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:53:03,648] {logging_mixin.py:109} INFO - [2022-05-08 10:53:03,648] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:53:03,779] {logging_mixin.py:109} INFO - [2022-05-08 10:53:03,779] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:53:03,815] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.378 seconds
+[2022-05-08 10:53:34,195] {processor.py:163} INFO - Started process (PID=31254) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:53:34,208] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:53:34,216] {logging_mixin.py:109} INFO - [2022-05-08 10:53:34,215] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:53:34,262] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:53:34,334] {logging_mixin.py:109} INFO - [2022-05-08 10:53:34,334] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:53:34,370] {logging_mixin.py:109} INFO - [2022-05-08 10:53:34,370] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:53:34,389] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.205 seconds
+[2022-05-08 10:54:04,592] {processor.py:163} INFO - Started process (PID=31309) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:54:04,597] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:54:04,599] {logging_mixin.py:109} INFO - [2022-05-08 10:54:04,599] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:54:04,638] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:54:04,681] {logging_mixin.py:109} INFO - [2022-05-08 10:54:04,680] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:54:04,708] {logging_mixin.py:109} INFO - [2022-05-08 10:54:04,708] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:54:04,734] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.154 seconds
+[2022-05-08 10:54:35,180] {processor.py:163} INFO - Started process (PID=31362) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:54:35,190] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:54:35,192] {logging_mixin.py:109} INFO - [2022-05-08 10:54:35,192] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:54:35,222] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:54:35,269] {logging_mixin.py:109} INFO - [2022-05-08 10:54:35,269] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:54:35,300] {logging_mixin.py:109} INFO - [2022-05-08 10:54:35,300] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:54:35,330] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.166 seconds
+[2022-05-08 10:55:05,769] {processor.py:163} INFO - Started process (PID=31426) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:55:05,779] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:55:05,785] {logging_mixin.py:109} INFO - [2022-05-08 10:55:05,784] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:55:05,833] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:55:05,895] {logging_mixin.py:109} INFO - [2022-05-08 10:55:05,895] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:55:05,926] {logging_mixin.py:109} INFO - [2022-05-08 10:55:05,925] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:55:05,947] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.193 seconds
+[2022-05-08 10:55:36,473] {processor.py:163} INFO - Started process (PID=31478) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:55:36,477] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:55:36,480] {logging_mixin.py:109} INFO - [2022-05-08 10:55:36,479] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:55:36,505] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:55:36,548] {logging_mixin.py:109} INFO - [2022-05-08 10:55:36,548] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:55:36,587] {logging_mixin.py:109} INFO - [2022-05-08 10:55:36,587] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:55:36,610] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.144 seconds
+[2022-05-08 10:56:07,625] {processor.py:163} INFO - Started process (PID=31530) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:56:07,628] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:56:07,630] {logging_mixin.py:109} INFO - [2022-05-08 10:56:07,630] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:56:07,658] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:56:07,707] {logging_mixin.py:109} INFO - [2022-05-08 10:56:07,707] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:56:07,741] {logging_mixin.py:109} INFO - [2022-05-08 10:56:07,740] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:56:07,772] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.153 seconds
+[2022-05-08 10:56:38,391] {processor.py:163} INFO - Started process (PID=31592) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:56:38,395] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:56:38,398] {logging_mixin.py:109} INFO - [2022-05-08 10:56:38,397] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:56:38,431] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:56:38,481] {logging_mixin.py:109} INFO - [2022-05-08 10:56:38,481] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:56:38,517] {logging_mixin.py:109} INFO - [2022-05-08 10:56:38,517] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:56:38,561] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.184 seconds
+[2022-05-08 10:57:09,153] {processor.py:163} INFO - Started process (PID=31647) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:57:09,156] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:57:09,158] {logging_mixin.py:109} INFO - [2022-05-08 10:57:09,158] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:57:09,183] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:57:09,223] {logging_mixin.py:109} INFO - [2022-05-08 10:57:09,223] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:57:09,260] {logging_mixin.py:109} INFO - [2022-05-08 10:57:09,259] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:57:09,273] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.125 seconds
+[2022-05-08 10:57:39,614] {processor.py:163} INFO - Started process (PID=31699) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:57:39,617] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:57:39,619] {logging_mixin.py:109} INFO - [2022-05-08 10:57:39,619] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:57:39,669] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:57:39,718] {logging_mixin.py:109} INFO - [2022-05-08 10:57:39,718] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:57:39,756] {logging_mixin.py:109} INFO - [2022-05-08 10:57:39,755] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:57:39,781] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.174 seconds
+[2022-05-08 10:58:10,437] {processor.py:163} INFO - Started process (PID=31750) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:58:10,441] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:58:10,445] {logging_mixin.py:109} INFO - [2022-05-08 10:58:10,445] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:58:10,477] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:58:10,530] {logging_mixin.py:109} INFO - [2022-05-08 10:58:10,530] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:58:10,566] {logging_mixin.py:109} INFO - [2022-05-08 10:58:10,566] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:58:10,593] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.162 seconds
+[2022-05-08 10:58:41,308] {processor.py:163} INFO - Started process (PID=31811) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:58:41,312] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:58:41,315] {logging_mixin.py:109} INFO - [2022-05-08 10:58:41,314] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:58:41,350] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:58:41,388] {logging_mixin.py:109} INFO - [2022-05-08 10:58:41,387] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:58:41,414] {logging_mixin.py:109} INFO - [2022-05-08 10:58:41,414] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:58:41,442] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.140 seconds
+[2022-05-08 10:59:11,545] {processor.py:163} INFO - Started process (PID=31863) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:59:11,550] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:59:11,553] {logging_mixin.py:109} INFO - [2022-05-08 10:59:11,553] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:59:11,576] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:59:11,611] {logging_mixin.py:109} INFO - [2022-05-08 10:59:11,610] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:59:11,638] {logging_mixin.py:109} INFO - [2022-05-08 10:59:11,637] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:59:11,655] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.124 seconds
+[2022-05-08 10:59:42,660] {processor.py:163} INFO - Started process (PID=31917) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:59:42,663] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 10:59:42,665] {logging_mixin.py:109} INFO - [2022-05-08 10:59:42,665] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:59:42,692] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 10:59:42,740] {logging_mixin.py:109} INFO - [2022-05-08 10:59:42,740] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 10:59:42,772] {logging_mixin.py:109} INFO - [2022-05-08 10:59:42,772] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 10:59:42,817] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.163 seconds
+[2022-05-08 11:00:13,554] {processor.py:163} INFO - Started process (PID=31970) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:00:13,559] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:00:13,562] {logging_mixin.py:109} INFO - [2022-05-08 11:00:13,561] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:00:13,589] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:00:13,632] {logging_mixin.py:109} INFO - [2022-05-08 11:00:13,631] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:00:13,657] {logging_mixin.py:109} INFO - [2022-05-08 11:00:13,657] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:00:13,681] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.137 seconds
+[2022-05-08 11:00:44,278] {processor.py:163} INFO - Started process (PID=32034) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:00:44,282] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:00:44,284] {logging_mixin.py:109} INFO - [2022-05-08 11:00:44,284] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:00:44,310] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:00:44,368] {logging_mixin.py:109} INFO - [2022-05-08 11:00:44,367] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:00:44,414] {logging_mixin.py:109} INFO - [2022-05-08 11:00:44,413] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:00:44,462] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.190 seconds
+[2022-05-08 11:01:14,635] {processor.py:163} INFO - Started process (PID=32088) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:01:14,638] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:01:14,640] {logging_mixin.py:109} INFO - [2022-05-08 11:01:14,640] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:01:14,667] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:01:14,760] {logging_mixin.py:109} INFO - [2022-05-08 11:01:14,759] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:01:14,891] {logging_mixin.py:109} INFO - [2022-05-08 11:01:14,890] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:01:15,006] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.377 seconds
+[2022-05-08 11:01:45,331] {processor.py:163} INFO - Started process (PID=32142) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:01:45,334] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:01:45,338] {logging_mixin.py:109} INFO - [2022-05-08 11:01:45,338] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:01:45,369] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:01:45,406] {logging_mixin.py:109} INFO - [2022-05-08 11:01:45,405] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:01:45,428] {logging_mixin.py:109} INFO - [2022-05-08 11:01:45,428] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:01:45,446] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.121 seconds
+[2022-05-08 11:02:16,073] {processor.py:163} INFO - Started process (PID=32196) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:02:16,076] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:02:16,078] {logging_mixin.py:109} INFO - [2022-05-08 11:02:16,078] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:02:16,103] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:02:16,137] {logging_mixin.py:109} INFO - [2022-05-08 11:02:16,137] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:02:16,162] {logging_mixin.py:109} INFO - [2022-05-08 11:02:16,162] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:02:16,186] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.118 seconds
+[2022-05-08 11:02:47,041] {processor.py:163} INFO - Started process (PID=32249) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:02:47,044] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:02:47,047] {logging_mixin.py:109} INFO - [2022-05-08 11:02:47,047] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:02:47,076] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:02:47,117] {logging_mixin.py:109} INFO - [2022-05-08 11:02:47,117] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:02:47,147] {logging_mixin.py:109} INFO - [2022-05-08 11:02:47,147] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:02:47,165] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.130 seconds
+[2022-05-08 11:03:17,792] {processor.py:163} INFO - Started process (PID=32303) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:03:17,795] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:03:17,797] {logging_mixin.py:109} INFO - [2022-05-08 11:03:17,797] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:03:17,824] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:03:17,871] {logging_mixin.py:109} INFO - [2022-05-08 11:03:17,871] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:03:17,898] {logging_mixin.py:109} INFO - [2022-05-08 11:03:17,898] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:03:17,923] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.136 seconds
+[2022-05-08 11:03:48,367] {processor.py:163} INFO - Started process (PID=32354) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:03:48,376] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:03:48,382] {logging_mixin.py:109} INFO - [2022-05-08 11:03:48,382] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:03:48,421] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:03:48,462] {logging_mixin.py:109} INFO - [2022-05-08 11:03:48,462] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:03:48,487] {logging_mixin.py:109} INFO - [2022-05-08 11:03:48,486] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:03:48,519] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.159 seconds
+[2022-05-08 11:04:20,220] {processor.py:163} INFO - Started process (PID=32418) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:04:20,225] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:04:20,257] {logging_mixin.py:109} INFO - [2022-05-08 11:04:20,257] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:04:20,347] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:04:20,491] {logging_mixin.py:109} INFO - [2022-05-08 11:04:20,490] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:04:20,586] {logging_mixin.py:109} INFO - [2022-05-08 11:04:20,586] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:04:20,612] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.457 seconds
+[2022-05-08 11:04:50,885] {processor.py:163} INFO - Started process (PID=32473) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:04:50,895] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:04:50,907] {logging_mixin.py:109} INFO - [2022-05-08 11:04:50,905] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:04:50,999] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:04:51,090] {logging_mixin.py:109} INFO - [2022-05-08 11:04:51,090] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:04:51,161] {logging_mixin.py:109} INFO - [2022-05-08 11:04:51,161] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:04:51,226] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.348 seconds
+[2022-05-08 11:05:21,342] {processor.py:163} INFO - Started process (PID=32528) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:05:21,346] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:05:21,348] {logging_mixin.py:109} INFO - [2022-05-08 11:05:21,348] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:05:21,374] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:05:21,417] {logging_mixin.py:109} INFO - [2022-05-08 11:05:21,417] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:05:21,440] {logging_mixin.py:109} INFO - [2022-05-08 11:05:21,439] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:05:21,458] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.121 seconds
+[2022-05-08 11:05:52,485] {processor.py:163} INFO - Started process (PID=32593) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:05:52,503] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:05:52,512] {logging_mixin.py:109} INFO - [2022-05-08 11:05:52,511] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:05:52,606] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:05:52,762] {logging_mixin.py:109} INFO - [2022-05-08 11:05:52,762] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:05:52,813] {logging_mixin.py:109} INFO - [2022-05-08 11:05:52,813] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:05:52,853] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.390 seconds
+[2022-05-08 11:06:23,805] {processor.py:163} INFO - Started process (PID=32647) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:06:23,809] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:06:23,812] {logging_mixin.py:109} INFO - [2022-05-08 11:06:23,812] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:06:23,845] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:06:23,911] {logging_mixin.py:109} INFO - [2022-05-08 11:06:23,911] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:06:23,956] {logging_mixin.py:109} INFO - [2022-05-08 11:06:23,956] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:06:23,999] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.200 seconds
+[2022-05-08 11:06:54,126] {processor.py:163} INFO - Started process (PID=32698) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:06:54,130] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:06:54,132] {logging_mixin.py:109} INFO - [2022-05-08 11:06:54,132] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:06:54,157] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:06:54,226] {logging_mixin.py:109} INFO - [2022-05-08 11:06:54,226] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:06:54,295] {logging_mixin.py:109} INFO - [2022-05-08 11:06:54,295] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:06:54,318] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.197 seconds
+[2022-05-08 11:07:24,544] {processor.py:163} INFO - Started process (PID=32749) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:07:24,550] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:07:24,554] {logging_mixin.py:109} INFO - [2022-05-08 11:07:24,553] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:07:24,596] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:07:24,661] {logging_mixin.py:109} INFO - [2022-05-08 11:07:24,661] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:07:24,724] {logging_mixin.py:109} INFO - [2022-05-08 11:07:24,724] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:07:24,778] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.243 seconds
+[2022-05-08 11:07:54,994] {processor.py:163} INFO - Started process (PID=32811) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:07:54,998] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:07:55,000] {logging_mixin.py:109} INFO - [2022-05-08 11:07:55,000] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:07:55,029] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:07:55,072] {logging_mixin.py:109} INFO - [2022-05-08 11:07:55,072] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:07:55,095] {logging_mixin.py:109} INFO - [2022-05-08 11:07:55,095] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:07:55,116] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.127 seconds
+[2022-05-08 11:08:25,274] {processor.py:163} INFO - Started process (PID=32864) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:08:25,282] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:08:25,285] {logging_mixin.py:109} INFO - [2022-05-08 11:08:25,285] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:08:25,322] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:08:25,377] {logging_mixin.py:109} INFO - [2022-05-08 11:08:25,377] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:08:25,404] {logging_mixin.py:109} INFO - [2022-05-08 11:08:25,403] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:08:25,421] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.157 seconds
+[2022-05-08 11:08:55,901] {processor.py:163} INFO - Started process (PID=32915) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:08:55,905] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:08:55,907] {logging_mixin.py:109} INFO - [2022-05-08 11:08:55,907] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:08:55,952] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:08:55,998] {logging_mixin.py:109} INFO - [2022-05-08 11:08:55,998] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:08:56,033] {logging_mixin.py:109} INFO - [2022-05-08 11:08:56,033] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:08:56,069] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.177 seconds
+[2022-05-08 11:09:26,527] {processor.py:163} INFO - Started process (PID=32978) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:09:26,531] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:09:26,533] {logging_mixin.py:109} INFO - [2022-05-08 11:09:26,533] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:09:26,563] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:09:26,598] {logging_mixin.py:109} INFO - [2022-05-08 11:09:26,598] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:09:26,622] {logging_mixin.py:109} INFO - [2022-05-08 11:09:26,621] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:09:26,643] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.121 seconds
+[2022-05-08 11:09:57,266] {processor.py:163} INFO - Started process (PID=33032) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:09:57,277] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:09:57,282] {logging_mixin.py:109} INFO - [2022-05-08 11:09:57,282] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:09:57,327] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:09:57,386] {logging_mixin.py:109} INFO - [2022-05-08 11:09:57,385] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:09:57,429] {logging_mixin.py:109} INFO - [2022-05-08 11:09:57,429] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:09:57,500] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.250 seconds
+[2022-05-08 11:49:58,323] {processor.py:163} INFO - Started process (PID=33092) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:49:58,337] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:49:58,340] {logging_mixin.py:109} INFO - [2022-05-08 11:49:58,339] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:49:58,387] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:49:58,453] {logging_mixin.py:109} INFO - [2022-05-08 11:49:58,453] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:49:58,497] {logging_mixin.py:109} INFO - [2022-05-08 11:49:58,497] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:49:58,524] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.208 seconds
+[2022-05-08 11:53:56,632] {processor.py:163} INFO - Started process (PID=33146) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:53:56,639] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:53:56,644] {logging_mixin.py:109} INFO - [2022-05-08 11:53:56,644] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:53:56,766] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:53:56,918] {logging_mixin.py:109} INFO - [2022-05-08 11:53:56,918] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:53:56,986] {logging_mixin.py:109} INFO - [2022-05-08 11:53:56,985] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:53:57,027] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.408 seconds
+[2022-05-08 11:54:27,867] {processor.py:163} INFO - Started process (PID=33199) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:54:27,874] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:54:27,877] {logging_mixin.py:109} INFO - [2022-05-08 11:54:27,877] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:54:27,913] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:54:27,960] {logging_mixin.py:109} INFO - [2022-05-08 11:54:27,960] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:54:27,997] {logging_mixin.py:109} INFO - [2022-05-08 11:54:27,997] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:54:28,034] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.189 seconds
+[2022-05-08 11:54:58,372] {processor.py:163} INFO - Started process (PID=33251) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:54:58,378] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:54:58,388] {logging_mixin.py:109} INFO - [2022-05-08 11:54:58,388] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:54:58,439] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:54:58,497] {logging_mixin.py:109} INFO - [2022-05-08 11:54:58,496] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:54:58,520] {logging_mixin.py:109} INFO - [2022-05-08 11:54:58,519] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:54:58,537] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.175 seconds
+[2022-05-08 11:55:29,467] {processor.py:163} INFO - Started process (PID=33315) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:55:29,470] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-05-08 11:55:29,472] {logging_mixin.py:109} INFO - [2022-05-08 11:55:29,472] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:55:29,519] {processor.py:652} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-05-08 11:55:29,599] {logging_mixin.py:109} INFO - [2022-05-08 11:55:29,599] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-05-08 11:55:29,627] {logging_mixin.py:109} INFO - [2022-05-08 11:55:29,627] {dag.py:2937} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2022-05-08 11:55:29,657] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.194 seconds

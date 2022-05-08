@@ -14,6 +14,15 @@ class LoadFactOperator(BaseOperator):
                  redshift_conn_id="",
                  table="",
                  *args, **kwargs):
+
+        """
+
+        :param sql:
+        :param redshift_conn_id:
+        :param table:
+        :param args:
+        :param kwargs:
+        """
         super(LoadFactOperator, self).__init__(*args, **kwargs)
         self.sql = sql
         self.redshift_conn_id = redshift_conn_id
